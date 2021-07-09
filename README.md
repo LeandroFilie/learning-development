@@ -33,6 +33,7 @@
   - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=JavaScript)
   - [Curso em Vídeo](https://www.cursoemvideo.com/course/javascript/)
   - [Origamid](https://youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt)
+  - [Curso Completo Youtube](https://youtu.be/i6Oi-YtXnAU)
 ### TypeScript
   - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
   - [Rocketseat](https://youtu.be/0mYq5LrQN1s)
