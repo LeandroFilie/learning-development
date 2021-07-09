@@ -23,6 +23,15 @@
   - Fetch
   - Async/Await
 
+# Cursos
+## JavaScript
+  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=JavaScript)
+  - [Curso em Vídeo](https://www.cursoemvideo.com/course/javascript/)
+## TypeScript
+  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
+## Discover
+  - [Rocketset](https://app.rocketseat.com.br/discover)
+ 
 # Repositórios Úteis
 
 ## Ideias de Projetos
