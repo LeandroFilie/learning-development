@@ -43,6 +43,3 @@
 
 ### Ideias de Projetos
 [App Ideas Collection](https://github.com/florinpop17/app-ideas)
-
-### Guia de Estudos
-[Repositório DevSoutinho](https://github.com/omariosouto/guia-de-estudos-devsoutinho)
