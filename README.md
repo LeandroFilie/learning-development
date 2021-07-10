@@ -44,3 +44,9 @@
 
 ### Ideias de Projetos
 [App Ideas Collection](https://github.com/florinpop17/app-ideas)
+
+### Readme
+[Exemplos de Readme](https://github.com/iuricode/readme-template)
+
+### Roadpmap
+[Roadmap Front-End](https://github.com/iuricode/front-end-do-zero)
