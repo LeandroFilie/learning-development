@@ -30,7 +30,7 @@ Javascript é como nós chamamos a linguaguem (mas isso é o trademark da Oracle
 - Array: []
   - [Iterando Arrays](array.js)
 
-- Function
+- [Functions](functions.md)
 
 ### Structural Root Primitive
 - Null: nulo
