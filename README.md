@@ -1,14 +1,25 @@
 # Estudos Front-End
 
+## Conhecimentos Básicos
+### Terminal
+- [Comandos e dicas](Terminal.md)
+
+### HTTP
+- [Saber Mais](http.md)
+
+### Scrum
+- Uma metodologia ágil
+- [Saber Mais](scrum.md)
+
 ## HTHML e CSS
  - [FrontEnd Mentor](https://www.frontendmentor.io/)
 
 ## Base de JavaScript para frameworks
 ### Variáveis
-  - Var, Let, Const
+  - [Var, Let, Const](variaveis_escopo.js)
   - Destructuring
     - Arrays e Objetos
-  - Spread Operator
+  - [Rest e Spread Operator](variaveis_escopo.js)
 
 ### Statements do JavaScript
   - If, For, While
@@ -23,6 +34,7 @@
   - Execução de Código
   - Parâmetros de Função
   - Retorno de Função
+  - [Tudo Sobre Funções]()
 
 ### Promisses
   - Fetch
