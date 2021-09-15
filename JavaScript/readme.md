@@ -47,7 +47,7 @@ JS é fracamente tipada
   - Array, Objeto
   - Métodos de array e objeto
 
-### Trabalhando com Expressões
+### [Expressões e Operadores](expressions_operators.md)
 - Ternário
 - Curto Circuito
 

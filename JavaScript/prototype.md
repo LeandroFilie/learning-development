@@ -1,6 +1,7 @@
 # Manipulação de Dados
 
 ## Prototype
+item.__proto__ : com isso, podemos verificar quais são todas as propriedade do item
 
 - JS é chamado de prototype-based language
   - Linguagem baseada em protótipos
