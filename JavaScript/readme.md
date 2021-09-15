@@ -43,15 +43,18 @@ JS é fracamente tipada
 - [Rest e Spread Operator](rest-spread-operator.md)
 
 ### Statements do JavaScript
-  - If, For, While
+  - [Controle de Fluxo](control_flow.md)
+    - If, Switch, Throw e try/catch
+  - [Estruturas de Repetição](repeticao.md)
+    - For, While, For of, For in
   - Array, Objeto
   - Métodos de array e objeto
 
 ### [Expressões e Operadores](expressions_operators.md)
 
-### [Controle de Fluxo](control_flow.md)
 
-### Promisses
+
+### Promises
   - Fetch
   - Async/Await
 
