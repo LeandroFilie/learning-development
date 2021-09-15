@@ -48,8 +48,8 @@ JS é fracamente tipada
   - Métodos de array e objeto
 
 ### [Expressões e Operadores](expressions_operators.md)
-- Ternário
-- Curto Circuito
+
+### [Controle de Fluxo](control_flow.md)
 
 ### Promisses
   - Fetch
