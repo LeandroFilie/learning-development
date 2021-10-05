@@ -120,3 +120,48 @@ element.classList.toggle('nome-class')
 - O toggle funciona assim:
   - se a classe existir ele tira
   - se a classe não existir, ele adiciona
+
+## [Navegando pelos Elementos](Pratica/Exemplos/DOM/index.html) 
+
+### parentElement e parentNode
+- Pega o elemento pai
+```js
+const element = document.querySelector('elemento')
+
+element.parentNode
+element.parentElement
+```
+
+### Elementos Filhos
+```js
+const element = document.querySelector('elemento')
+
+//Pega todos os filhos em formato de NodeList
+element.childNodes
+
+//Pega todos os filhos em formato de HTMLCollection
+element.children
+
+// Leva em conta o espaço vazio
+element.firstChild
+element.lastChild
+
+// Pega a primeira/ultima tag filha
+element.firstElementChild
+element.lastElementChild
+```
+
+### Elementos Irmãos
+- nextSibling
+```js
+const element = document.querySelector('elemento')
+
+// nextSibling/previousSibling => leva em conta o espaço vazio
+element.nextSibling
+element.previousSibling
+
+// nextElementSibling/previousElementSibling => não leva em conta o espaço vazio
+element.nextElementSibling
+element.previousElementSibling
+```
+
