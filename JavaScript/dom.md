@@ -120,7 +120,7 @@ element.classList.toggle('nome-class')
   - se a classe existir ele tira
   - se a classe não existir, ele adiciona
 
-## [Navegando pelos Elementos](Pratica/Exemplos/DOM/index.html) 
+## Navegando pelos Elementos 
 
 ### parentElement e parentNode
 - Pega o elemento pai
@@ -164,3 +164,28 @@ element.nextElementSibling
 element.previousElementSibling
 ```
 
+
+## Criando e Adicionando Elementos na Página
+Exemplo: 
+```js
+// Criando o elemento
+const div = documentCreateElement('div');
+div.innerText = 'Conteudo de texto'
+
+// Adicionando o Elemento na página
+const body = document.querySelector('body')
+body.append(div) //adiciona o elemento após o ultimo filho ja existente
+
+body.preappend(div) //adiciona o elemento primeiro
+```
+
+insertBefore
+element.insertBefore(insert, antesDesseElemento)
+```js
+const script = body.querySelector('script')
+body.insertBefore(div, script)
+
+// Simulando um insertAfter (que não existe)
+const header = body.querySelector('header')
+body.insertBefore(div, header.nextSibling)
+```
