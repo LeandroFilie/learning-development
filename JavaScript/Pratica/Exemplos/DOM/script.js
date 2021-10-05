@@ -24,3 +24,7 @@ element.getAttribute('id')
 
 //remover atributo
 element.removeAttribute('id')
+
+// ESTILOS
+const elementForStyle = document.querySelector('body')
+elementForStyle.style.backgroundColor = 'gray';
