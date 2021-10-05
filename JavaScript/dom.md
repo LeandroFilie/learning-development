@@ -44,6 +44,7 @@ HTMLCollection: não aceita diversas funções
 - querySelectorAll => NodeList 
 
 ## [Manipulando Conteúdos](Pratica/Exemplos/DOM/index.html)
+
 Todas essas propriedades servem tanto para atribuir, quanto para buscar
 ### textContent
 ```js
@@ -92,3 +93,30 @@ element.getAttribute('atributo')
 //pegar valor do atributo
 element.removeAttribute('atributo')
 ```
+
+
+## [Manipulando Estilos](Pratica/Exemplos/DOM/index.html)
+```js
+const element = document.querySelector('elemento')
+
+// Como se fosse o estilo inline
+// O nome das propriedades css agora é em camelCase. Ex: marginTop
+element.style.backgroundColor = 'red'
+```
+
+### classList
+Retorna um DOMTokenList
+
+
+```js
+const element = document.querySelector('elemento')
+
+element.classList
+
+element.classList.add('classe-a-ser-adicionada')
+element.classList.remove('classe-a-ser-removida')
+element.classList.toggle('nome-class')
+```
+- O toggle funciona assim:
+  - se a classe existir ele tira
+  - se a classe não existir, ele adiciona
