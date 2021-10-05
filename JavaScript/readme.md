@@ -136,3 +136,13 @@ const persons = ['Pessoa 1', 'Pessoa 2', 'Pessoa 3'];
 persons[1] = 'Pessoa X'; // array também pode alterar
 console.log(persons);
 ```
+
+
+## DOM - Document Object Model
+- É o HTML convertido em JS
+  - JS usa a DOM para se conectar ao HTML
+    - Com isso, é possível manipular o HTML através do JS
+- Estrutura de dados do tipo árvore, criada pelo browser
+
+- [Selecionar Elementos](dom.md/#Selecionando-Elementos)
+- [Manipular Conteúdos](dom.md/#Manipulando-Conteúdos)
