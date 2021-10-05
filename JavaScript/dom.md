@@ -107,7 +107,6 @@ element.style.backgroundColor = 'red'
 ### classList
 Retorna um DOMTokenList
 
-
 ```js
 const element = document.querySelector('elemento')
 
