@@ -1,0 +1,12 @@
+.animated-show{
+  animation: show .2s normal;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-25%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

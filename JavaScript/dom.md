@@ -189,3 +189,78 @@ body.insertBefore(div, script)
 const header = body.querySelector('header')
 body.insertBefore(div, header.nextSibling)
 ```
+
+
+## Eventos
+
+### Adicionando eventos via HTML
+'on'+nome do evento
+
+```HTML
+<h1 onclick="print()">Título</h1>
+```
+
+```js
+function print(){
+  // code here
+}
+```
+
+### Eventos de Teclado
+```js
+const input = document.querySelector('input')
+
+input.onkeypress = function(){
+  // code here
+}
+
+input.onkeyup = function(){
+  // code here
+}
+
+input.onkeydown = function(){
+  // code here
+}
+```
+
+### Adicionando eventos via JS
+- Método 1
+Mais recomendado
+```js
+elemento.addEventListener('evento','função')
+
+const h1 = document.querySelector('h1');
+
+h1.addEventListener('click', print)
+
+function print(){
+  // code here
+}
+```
+
+- Método 2
+Nessa Maneira, é sempre considerada a ultima maneira que encontrar
+```js
+elemento.onnomeevento
+
+const h1 = document.querySelector('h1');
+
+h1.onclick = print //será ignorado
+
+function print(){
+  // code here
+}
+
+h1.onclick = function(){
+  // code here
+}
+```
+
+
+### Argument Event
+É um objeto e tem muitos objetos e prototypes
+```js
+input.onkeypress = function(event){
+  //code here
+}
+```
