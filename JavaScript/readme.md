@@ -146,3 +146,5 @@ console.log(persons);
 
 - [Selecionar Elementos](dom.md/#Selecionando-Elementos)
 - [Manipular Conteúdos](dom.md/#Manipulando-Conteúdos)
+
+## [JS6] (ES6/js-es6.md)
