@@ -38,6 +38,12 @@
 - [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Padrões de Projeto](https://github.com/elsewhencode/project-guidelines)
 - [Boas práticas em Testes](https://github.com/goldbergyoni/javascript-testing-best-practices)
+- [Algoritmos e Estrutura de Dados JS](https://github.com/trekhleb/javascript-algorithms)
+- [Dicas CSS](https://github.com/AllThingsSmitty/css-protips)
+- [Livros](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-pt_BR.md)
+- [Dicas Front-End](https://github.com/thedaviddias/Front-End-Checklist)
+- [Perguntas e Respostas](https://github.com/lydiahallie/javascript-questions/blob/master/pt-BR/README_pt_BR.md)
+- [Tópicos de Estudo](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md)
 
 
 ### Roadpmap
