@@ -44,6 +44,8 @@
 - [Dicas Front-End](https://github.com/thedaviddias/Front-End-Checklist)
 - [Perguntas e Respostas](https://github.com/lydiahallie/javascript-questions/blob/master/pt-BR/README_pt_BR.md)
 - [Tópicos de Estudo](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md)
+- [Front-End Challenges](https://github.com/felipefialho/frontend-challenges)
+- [Mais desafios](https://www.devchallenge.com.br/)
 
 
 ### Roadpmap
