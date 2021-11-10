@@ -46,6 +46,7 @@
 - [Tópicos de Estudo](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md)
 - [Front-End Challenges](https://github.com/felipefialho/frontend-challenges)
 - [Mais desafios](https://www.devchallenge.com.br/)
+- [Projetos HTML e CSS](https://github.com/rafaballerini/10ProjetosHTMLeCSS)
 
 
 ### Roadpmap
