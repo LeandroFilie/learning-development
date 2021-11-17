@@ -13,9 +13,10 @@
 
 ### GIT
 
-## HTHML e CSS
+## HTML e CSS
  - [HTML](HTML/readme.md)
  - [FrontEnd Mentor](https://www.frontendmentor.io/)
+ - [SASS](SCSS/readme.md)
 
 ## [JavaScript](JavaScript/readme.md) para frameworks
 
