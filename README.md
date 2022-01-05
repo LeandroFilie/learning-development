@@ -13,6 +13,8 @@
 
 ### GIT
 
+### [Estrutura de Dados](Conceitos/EstruturaDados.md)
+
 ## HTML e CSS
  - [HTML](HTML/readme.md)
  - [FrontEnd Mentor](https://www.frontendmentor.io/)
