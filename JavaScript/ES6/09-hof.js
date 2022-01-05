@@ -52,3 +52,17 @@ const reduce = array.reduce((accumulator, product) => {
 }, 0)
 
 console.log({reduce});
+
+// forEach
+// Iterar os itens do array
+persons.forEach(person => {
+  console.log(`Nome: ${person.name}`);
+})
+
+// sort
+const order = persons.sort((current, next) => current.grade - next.grade);
+console.log(order);
+
+//reverse
+const reverse = arr.reverse()
+console.log(reverse);

@@ -1,5 +1,7 @@
 # JavaScript ES6
 
+## [Debugging](15-console.js)
+
 ## Functions
 - [Functions e Arrow Functions](01-functions.js)
   - O contexto do this é a principal diferença
@@ -10,6 +12,7 @@
   - [Destructuring](02-Destructuring.js)
   - [Rest](03-rest.js)
   - [Spread](04-spread.js)
+  - [Binário](10-binario.js)
 
 ## [Promises](05-promises.js)
 Promises são usadas quando tarefas muito pesadas ou que podem demorar são executadas. Ex: consulta ao BD
@@ -18,6 +21,19 @@ Promises são usadas quando tarefas muito pesadas ou que podem demorar são exec
   - Quando usamos o .then, o código não fica travado
   - No async/await o código só continua se a linha que tiver await terminar de ser executada
 
+### [Async/Await](12-Async-Await.js)
+
+
+### [Callbacks](11-callback.js)
+Callbacks executam algo após uma tarefa síncrona ter sido executada
+
+
+## Consumir APIs
+### [Fetch](14-fetch/fetch.js)
+
+### [Axios]()
+
+
 ## [ES Modules](07-Modules)
 Por padrão, o node não aceita, apenas com Babel (transpilador de código)
 - Para corrigir, temos duas Opções
@@ -25,7 +41,7 @@ Por padrão, o node não aceita, apenas com Babel (transpilador de código)
 - Mudar a extensão dos arquivos .js para .mjs
 - E também, no momento do import, passar também a extensão do arquivo
 
-## [Criando arquivo package.json](07-Modules/Tipo2)
+### [Criando arquivo package.json](07-Modules/Tipo2)
 - Criar a tag type e setala como module
 ```JSON
 {
@@ -63,3 +79,5 @@ array.reduce((acumulador, momento) => {
 
 }, valorInicial)
 ```
+
+## [Event Emitter](13-EventEmitter.js)

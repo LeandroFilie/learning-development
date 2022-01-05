@@ -80,7 +80,6 @@ Title
 ### [Outros Atributos](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes)
 
 ## Forms
-Apenas coisas diferentes dos forms
 
 ### Atributos no Input
 - type
@@ -175,7 +174,7 @@ Apenas coisas diferentes dos forms
 
 - select
   - multiple
-  - size: qtd opções visiveis
+  - size: qtd opções visíveis
 ```HTML
 <select>
   <optgroup label="Grupo 1">

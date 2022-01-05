@@ -36,6 +36,13 @@ function soma(){
 
 soma(1, 2, 3, 4, 5)
 
+// Default arguments
+
+function multiplyWithDefaultArgument(a, b = a){
+  // caso b seja undefined, ele assumira o valor a
+  return a * b;
+}
+
 // rest operator
 function soma2(...argumentos){
   console.log(argumentos);

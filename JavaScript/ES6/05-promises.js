@@ -23,16 +23,19 @@ const apiCall = new Promise((resolve, reject) => {
     console.log(erro);
   }) */
 
-// Async/Await
-async function run(){
-  try{
-    const resposta = await apiCall //JS só sai dessa linha no momento em que a promise finalizar
-    console.log(resposta);
-  }
-  catch (erro){
-    // erro será o mesmo do reject
-    console.log(erro);
-  }
-}
-
 run()
+
+//Processamento paralelo
+
+Promise.all([doSomethingPromise(), doOtherThingPromise()]).then((data) => {
+  console.log(data);
+}).catch(err => {
+  console.log(err);
+})
+
+// a que for revolvida primeiro vence
+Promise.race([doSomethingPromise(), doOtherThingPromise()]).then((data) => {
+  console.log(data);
+}).catch(err => {
+  console.log(err);
+})

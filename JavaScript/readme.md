@@ -1,6 +1,81 @@
 # JavaScript
 Javascript é como nós chamamos a linguagem (mas isso é o trademark da Oracle), o nome oficial da linguagem é ECMAScript (ES) é a abreviação.
 
+## Conceitos
+
+### Hoisting
+Içamento de funções e variáveis para o topo do código, isso declara as variáveis e funções em memória e permite que você use uma função/variável antes mesmo de declara-la.
+
+```js
+console.log(x);
+// saída será undefined
+{
+  var x = 1;
+}
+
+//Por baixo dos panos, com hoisting
+var x;
+console.log(x);
+{
+  x = 1;
+}
+```
+
+### Imutabilidade
+- Uma variável nunca se altera, se precisar mudar, cria outra variável
+
+Exemplo 1
+```js
+const user = {
+  name: 'Leandro',
+  lastName: 'Gomes Filié'
+}
+
+function getUserFullName(user){
+  return{
+    ...user, //spread operator => para cada propriedade que receber do 'user', vai colocar no novo objeto
+    fullName: `${user.name} ${user.lastName}`
+  }
+}
+
+const userFullName = getUserFullName(user)
+
+console.log(userFullName);
+```
+
+### Currying
+Transformar uma função com n parâmetros em uma função que recebe apenas um parâmetro
+
+```js
+// SEM CURRYING
+function somaSemCurrying(a, b){
+  return a + b;
+}
+
+somaSemCurrying(2, 2);
+somaSemCurrying(2, 3);
+somaSemCurrying(2, 4);
+somaSemCurrying(2, 5);
+
+// COM CURRYING 
+function somaComCurrying(x){
+  return function(y){
+    return x + y;
+  }
+}
+
+const soma = somaComCurrying(2);
+console.log(soma(2));
+console.log(soma(3));
+console.log(soma(4));
+console.log(soma(5));
+```
+
+### Design Patterns
+Padrões de projeto reutilizáveis para problemas comuns
+
+[Ver todos](design_patterns.md)
+
 ## Tipos de Dados
 
 ### Primitive
@@ -19,16 +94,16 @@ Javascript é como nós chamamos a linguagem (mas isso é o trademark da Oracle)
 
 - Undefined: indefinido
 
-- Symbol
+- [Symbol](symbol.md)
 
 - BigInt
 
 ### Structural
 - Objeto: {propriedade: "valor"}
-  - [Funções de Objetos]()
+  - [Funções de Objetos](objects.md)
 
 - Array: []
-  - [Iterando Arrays]()
+  - [Iterando Arrays](ES6/09-hof.js)
 
 - [Functions](functions.md)
 
@@ -65,24 +140,6 @@ JS é fracamente tipada
 {
   //escopo local
   //block statement
-}
-```
-
-### Hoisting
-  - Içamento de funções e variáveis para o topo do código, isso declara as variáveis e funções em memória e permite que você use uma função/variável antes mesmo de declara-la.
-
-```js
-console.log(x);
-// saída será undefined
-{
-  var x = 1;
-}
-
-//Por baixo dos panos, com hoisting
-var x;
-console.log(x);
-{
-  x = 1;
 }
 ```
 
@@ -148,3 +205,7 @@ console.log(persons);
 - [Manipular Conteúdos](dom.md/#Manipulando-Conteúdos)
 
 ## [JS6] (ES6/js-es6.md)
+
+## Programação Orientada a Objetos
+
+[Exemplos](poo.md)
