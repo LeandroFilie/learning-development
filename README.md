@@ -15,6 +15,10 @@
 
 ### [Estrutura de Dados](Conceitos/EstruturaDados.md)
 
+### Paradigmas de Programação
+- [Programação Orientada a Objetos](Conceitos/poo.md)
+- [Programação Funcional](Conceitos/pf.md)
+
 ## HTML e CSS
  - [HTML](HTML/README.md)
  - [FrontEnd Mentor](https://www.frontendmentor.io/)
