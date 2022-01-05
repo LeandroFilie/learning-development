@@ -16,9 +16,9 @@
 ### [Estrutura de Dados](Conceitos/EstruturaDados.md)
 
 ## HTML e CSS
- - [HTML](HTML/readme.md)
+ - [HTML](HTML/README.md)
  - [FrontEnd Mentor](https://www.frontendmentor.io/)
- - [SASS](SCSS/readme.md)
+ - [SASS](SCSS/README.md)
 
 ## [JavaScript](JavaScript/readme.md) para frameworks
 
