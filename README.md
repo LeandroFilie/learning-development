@@ -1,4 +1,4 @@
-# Estudos Front-End
+# Estudos FullStack(Front-End e Back-End)
 
 ## Conceitos Básicos
 ### Terminal
@@ -24,19 +24,19 @@
  - [FrontEnd Mentor](https://www.frontendmentor.io/)
  - [SASS](SCSS/README.md)
 
-## [JavaScript](JavaScript/readme.md) para frameworks
+## [JavaScript](JavaScript/readme.md)
 
 ## Cursos
 ### JavaScript
-  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=JavaScript)
-  - [Curso em Vídeo](https://www.cursoemvideo.com/course/javascript/)
-  - [Origamid](https://youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt)
-  - [Curso Completo Youtube](https://youtu.be/i6Oi-YtXnAU)
+  - [x] [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=JavaScript)
+  - [ ][Curso em Vídeo](https://www.cursoemvideo.com/course/javascript/)
+  - [ ][Origamid](https://youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt)
+  - [ ][Curso Completo Youtube](https://youtu.be/i6Oi-YtXnAU)
 ### TypeScript
-  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
-  - [Rocketseat](https://youtu.be/0mYq5LrQN1s)
-### Discover
-  - [Rocketseat](https://app.rocketseat.com.br/discover)
+  - [ ][Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
+  - [ ][Rocketseat](https://youtu.be/0mYq5LrQN1s)
+### [Discover](https://app.rocketseat.com.br/discover)
+  - [ x ] JavaScript
  
 ## Repositórios Úteis
 - [App Ideas Collection](https://github.com/florinpop17/app-ideas)
