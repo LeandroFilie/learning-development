@@ -35,6 +35,7 @@
 ### TypeScript
   - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
   - [Rocketseat](https://youtu.be/0mYq5LrQN1s)
+  - [Mini-Curso](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_)
 ### [Discover](https://app.rocketseat.com.br/discover)
   - Git e GitHub
   - HTML
