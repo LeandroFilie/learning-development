@@ -28,15 +28,18 @@
 
 ## Cursos
 ### JavaScript
-  - [x] [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=JavaScript)
-  - [ ][Curso em Vídeo](https://www.cursoemvideo.com/course/javascript/)
-  - [ ][Origamid](https://youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt)
-  - [ ][Curso Completo Youtube](https://youtu.be/i6Oi-YtXnAU)
+  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=JavaScript)
+  - [Curso em Vídeo](https://www.cursoemvideo.com/course/javascript/)
+  - [Origamid](https://youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt)
+  - [Curso Completo Youtube](https://youtu.be/i6Oi-YtXnAU)
 ### TypeScript
-  - [ ][Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
-  - [ ][Rocketseat](https://youtu.be/0mYq5LrQN1s)
+  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
+  - [Rocketseat](https://youtu.be/0mYq5LrQN1s)
 ### [Discover](https://app.rocketseat.com.br/discover)
-  - [ x ] JavaScript
+  - Git e GitHub
+  - HTML
+  - CSS
+  - JavaScript
  
 ## Repositórios Úteis
 - [App Ideas Collection](https://github.com/florinpop17/app-ideas)
