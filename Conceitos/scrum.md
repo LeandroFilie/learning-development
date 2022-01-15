@@ -91,6 +91,9 @@ Um dos frameworks de gerenciamento de projetos ágeis
 ### Tarefa
 - Conjunto de atividades que o time dev deve desempenhar para entregar a estória
 
+### BackLog
+- Local onde ficam as tarefas que tem que ser feitas e vão entrar nas próximas sprints
+
 ## Critério de Aceite
 - Lista de critérios que precisam ser alcançados para que a User Story atenda os requisitos do usuário e seja aceita pelo PO
 - Objetivos: definir limites para as User Stories e ajudar o PO a detalhar em alto nível o que é necessário para entregar valor ao cliente
