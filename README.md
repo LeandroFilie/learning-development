@@ -1,4 +1,4 @@
-# Estudos FullStack(Front-End e Back-End)
+# Estudos FullStack (Front-End e Back-End)
 
 ## Conceitos Básicos
 ### Terminal
