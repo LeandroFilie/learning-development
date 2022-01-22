@@ -12,6 +12,7 @@
 - [Saber Mais](Conceitos/scrum.md)
 
 ### GIT
+- [Treinar Gith](https://learngitbranching.js.org/?locale=pt_BR)
 
 ### [Estrutura de Dados](Conceitos/EstruturaDados.md)
 
@@ -19,12 +20,11 @@
 - [Programação Orientada a Objetos](Conceitos/poo.md)
 - [Programação Funcional](Conceitos/pf.md)
 
-## HTML e CSS
+## HTML, CSS e JavaScript
  - [HTML](HTML/README.md)
  - [FrontEnd Mentor](https://www.frontendmentor.io/)
  - [SASS](SCSS/README.md)
-
-## [JavaScript](JavaScript/readme.md)
+ - [JavaScript](JavaScript/readme.md)
 
 ## Cursos
 ### JavaScript
@@ -56,7 +56,6 @@
 - [Perguntas e Respostas](https://github.com/lydiahallie/javascript-questions/blob/master/pt-BR/README_pt_BR.md)
 - [Tópicos de Estudo](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-ptbr.md)
 - [Front-End Challenges](https://github.com/felipefialho/frontend-challenges)
-- [Mais desafios](https://www.devchallenge.com.br/)
 - [Projetos HTML e CSS](https://github.com/rafaballerini/10ProjetosHTMLeCSS)
 - [Guia Dev Brasil](https://github.com/arthurspk/guiadevbrasil)
 - [Front-End BR](https://github.com/frontendbr)
@@ -64,7 +63,44 @@
 - [Front-End Challenges](https://github.com/felipefialho/frontend-challenges)
 - [Canal do youtube com ideias de projetos](https://github.com/bedimcode/)
 - [Juntos Somos Mais - Tem de tudo](https://github.com/bedimcode/)
-
+- [Perguntas para entrevistas](https://github.com/yangshun/tech-interview-handbook)
+- [Boas praticas Node.js](https://github.com/goldbergyoni/nodebestpractices)
+- [Dicas para command line](https://github.com/jlevy/the-art-of-command-line)
+- [ES6](https://github.com/metagrover/ES6-for-humans)
 
 ### Roadpmap
 [Roadmap Front-End](https://github.com/iuricode/front-end-do-zero)
+
+## Sites uteis
+### APIs
+- [Marvel](https://developer.marvel.com)
+- [IMDb](https://developer.imdb.com)
+- [Nasa](https://api.nasa.gov)
+
+### CSS
+- [bounce.js](bouncejs.com)
+- [keyframes](keyframes.app/animate)
+- [Animatopy](sarthology.github.io/Animatopy)
+- [Animista](animista.net)
+- [CSS LAYOUT](https://csslayout.io/)
+- [Menus Hamburgueres Animados](https://march08.github.io/animated-burgers/)
+- [loading.io](loading.io)
+
+### JS
+- [Refactoring.Guru](https://refactoring.guru/pt-br)
+- [Desafios](https://www.devchallenge.com.br/)
+- [Regexr](regexr.com)
+- [iHateRegex](ihateregex.io)
+- Biblioteca de Animações
+  - [AniJS](anijs.github.io)
+  - [Scroll Reveal](scrollrevealjs.org)
+  - [Popmotion Pure](popmotion.io/pure)
+  - [Lottie JS](airbnb.io/lottie)
+  - [MOJS](mojs.github.io)
+
+### Ferramentas
+- [Lorem Picsum](picsum.photos)
+- [Beeceptor](beeceptor.com)
+- [Epoch Converter](www.epochconverter.com)
+- [NGROK](ngrok.com)
+- [TinyPNG](tinypng.com)
