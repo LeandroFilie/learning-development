@@ -58,6 +58,12 @@
 - [Front-End Challenges](https://github.com/felipefialho/frontend-challenges)
 - [Mais desafios](https://www.devchallenge.com.br/)
 - [Projetos HTML e CSS](https://github.com/rafaballerini/10ProjetosHTMLeCSS)
+- [Guia Dev Brasil](https://github.com/arthurspk/guiadevbrasil)
+- [Front-End BR](https://github.com/frontendbr)
+- [Public APIs](https://github.com/public-apis/public-apis)
+- [Front-End Challenges](https://github.com/felipefialho/frontend-challenges)
+- [Canal do youtube com ideias de projetos](https://github.com/bedimcode/)
+- [Juntos Somos Mais - Tem de tudo](https://github.com/bedimcode/)
 
 
 ### Roadpmap
