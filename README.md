@@ -1,4 +1,4 @@
-# Estudos FullStack (Front-End e Back-End)
+# Estudos FullStack (React.js e Node.js)
 
 ## Conceitos Básicos
 ### Terminal
