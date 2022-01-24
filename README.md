@@ -20,6 +20,8 @@
  - [HTML](HTML/README.md)
  - [SASS](SCSS/README.md)
  - [JavaScript](JavaScript/readme.md)
+ - [Node.js](NodeJS/readme.md)
+ - [React.js]
 
 ## Repositórios Úteis
 - [Dicas para command line](https://github.com/jlevy/the-art-of-command-line)
