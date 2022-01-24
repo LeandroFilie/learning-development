@@ -83,3 +83,15 @@ Troca de mensagens entre duas pontas
 
 - Body
   - Dados requisitados
+
+## Modules
+São conjuntos de código.
+
+- 3 Tipos de Módulos
+  - Todos os arquivos js são módulos
+  - Nativos
+  - npm 
+
+- Para importar módulos, usa-se a palavra chave "require"
+
+- No arquivo do módulo a ser importado, você escolhe o que ser importado, através da função "module.exports"
