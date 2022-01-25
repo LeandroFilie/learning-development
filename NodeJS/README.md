@@ -95,3 +95,38 @@ São conjuntos de código.
 - Para importar módulos, usa-se a palavra chave "require"
 
 - No arquivo do módulo a ser importado, você escolhe o que ser importado, através da função "module.exports"
+
+## Estrutura do projeto
+
+### Controller
+- Onde ficam as regras de negócio da api
+- Os métodos são:
+  - index: listar registros
+  - show: obter um registro
+  - store: criar novo registro
+  - update: editar um registro
+  - delete: deletar um registro
+
+### Repository Pattern
+- Layer (camada) de abstração de abstração ao Data Source (fonte de dados => array, SQL, NoSQL, json, api)
+- Conhece as regras de implementação <br />
+
+Controller <-> Repository <-> Data Source
+
+## Middlewares
+Life Cycle padrão de uma request: <br />
+Request -> Controller -> Response <br />
+
+Os Middlewares alteram esse comportamento <br />
+Request <-> Middlewares -> Controller -> Response <br />
+
+Servem para manipular os objetivos de request e response, como adicionar ou remover propriedades, de forma com que fique disponível em todos os controllers da aplicação <br />
+
+Middlewares controlam o life cycle, podendo fazer com que a aplicação continue para o controller ou que volte uma resposta para a request <br />
+
+### Características
+- O express entende as rotas como Middlewares
+- São executados na sequencia em que são declarados
+- Tem que indicar se vai parar ou continuar a execução
+  - Para parar: enviar um response
+  - Para continuar: recebe um parâmetro a mais, a função "next", que quando chamada faz com que a execução continue
