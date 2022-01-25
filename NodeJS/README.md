@@ -130,3 +130,31 @@ Middlewares controlam o life cycle, podendo fazer com que a aplicação continue
 - Tem que indicar se vai parar ou continuar a execução
   - Para parar: enviar um response
   - Para continuar: recebe um parâmetro a mais, a função "next", que quando chamada faz com que a execução continue
+
+## Docker
+- São container onde podemos executar aplicações de forma isolada
+- Usa o mesmo kernel da máquina host, com isso, é mais leve e eficiente do que usar uma VM tradicional
+
+### Imagens Docker
+- Define o que será executado dentro do container
+- dockerhub: repositório de imagens prontas
+
+### Comandos
+- <code>docker pull [nome_imagem]</code>: baixar uma imagem
+- <code>docker imagem ls</code>: lista todas as imagens instaladas
+- <code>docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres</code>
+  - Serve para criar um container
+  - <code>--name</code>: nome do container
+  - <code>-e [VARIAVEL=valor]</code>: cria variáveis de ambiente
+  - <code>p [portaHost:portaContainer]</code>: especifica a porta
+  - <code>-d</code>: modo de execução, no caso -d faz com que seja executado em background
+
+- <code>docker container ls</code> ou <code>docker ps</code>: ver os container que estão rodando
+- <code>docker container ls -a</code> ou <code>docker ps -a</code> : lista os container parados ou rodando
+- <code>docker stop [nome/id]</code>: parar o container
+- <code>docker start [nome/id]</code>: iniciar o container
+- <code>docker rim [repository/id]</code>: excluir uma imagem
+  - antes de excluir uma imagem, tem que excluir os containers que usam ela
+- <code>docker container rm [nome/id]</code>: excluir um container
+  - antes de excluir um container, tem que dar um stop nele
+
