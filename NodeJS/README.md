@@ -158,3 +158,9 @@ Middlewares controlam o life cycle, podendo fazer com que a aplicação continue
 - <code>docker container rm [nome/id]</code>: excluir um container
   - antes de excluir um container, tem que dar um stop nele
 
+### Banco de dados
+- <code>docker exec -it [nome_container] bash</code>: acessar container
+- <code>psql -U [POSTGRES_USER]</code>: logar no postgres
+- <code>\l</code>: listar base de dados
+- <code>\c [nome_base_dados]</code>: conectar em uma base de dados
+- <code>\dt</code>: listar tabelas de uma base de dados
