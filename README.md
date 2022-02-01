@@ -1,4 +1,4 @@
-# Estudos FullStack (React.js e Node.js)
+# Estudos React.js e Node.js
 
 ## Conceitos Básicos
 - [Terminal](Conceitos/Terminal.md)
