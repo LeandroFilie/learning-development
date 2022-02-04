@@ -37,7 +37,7 @@ Transpila o código jsx em uma versão que o navegador consiga entender
 
 - @babel/core: É o core do babel
 
-- @babel/preset-env: Entende quais recursos que são modernos e que transpila o código em que versões antiores conseguem executar
+- @babel/preset-env: Entende quais recursos que são modernos e que transpila o código em que versões anteriores conseguem executar
 
 - @babel/cli: Linha de comando do babel
   - Comandos
@@ -146,6 +146,47 @@ NomeComponente.propTypes = {
 }
 ```
 
+
+## Context API
+A Context API surgiu para resolver o problema de Prop Drilling, ou seja, a ação de passar um valor por vários níveis de componentes
+
+A Context API cria um contexto de informações, através do Provider, que são as informações que queremos compartilhar com outros componentes. Todos os componentes abaixo do provider conseguem acessar o valor passado.
+
+
+Arquivo ThemeContext.js
+```js
+import React, { createContext } from "react";
+
+export const ThemeContext = createContext('valorInicial'); //criando um contexto
+
+export function ThemeProvider(props) {
+  return(
+    <ThemeContext.Provider value={}>
+      {props.children}
+    </ThemeContext.Provider>
+  )
+}
+```
+
+Componente App
+```js
+import React, { useContext } from "react";
+import { ThemeContext } from './ThemeContext',
+
+<ThemeContext>
+  <h2>Dentro do contexto</h2>
+</ThemeContext>
+```
+
+Componente Usando o Contexto
+```js
+import React, { useContext } from "react";
+import { ThemeContext } from './ThemeContext',
+
+const ThemeContext = useContext(ThemeContext); //usando um contexto
+```
+
 ## React Hooks
+Uma regra é que tem que ser criado no corpo do componente, não pode ser dentro de uma função que está dentro do componente por exemplo. Tem que ser diretamente no componente
 
 ### useState
