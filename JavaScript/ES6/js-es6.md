@@ -65,7 +65,7 @@ Por padrão, o node não aceita, apenas com Babel (transpilador de código)
 - some: verifica se algum elemento do array bate com a condição
   - Retorna um boolean
 
-- every: igual ao every, porém todos os itens tem que retornar true para a condição
+- every: igual ao some, porém todos os itens tem que retornar true para a condição
 
 - map: cria um novo array baseado no anterior, porém, modificando alguma propriedade
   - O retorno sempre será um array com o mesmo número de posições do array base
