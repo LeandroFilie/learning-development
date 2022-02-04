@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Post from './Post';
 import Header from './Header';
+import { ThemeProvider } from "./ThemeContext";
 
 function App() {
   const [ posts, setPosts ] = useState([
@@ -9,7 +10,6 @@ function App() {
     { id: Math.random(), title: 'Title#02', content: 'Cont#02', likes: 20, read: false},
     { id: Math.random(), title: 'Title#03', content: 'Cont#03', likes: 20, read: false},
   ]);
-
 
   function handleRefresh(){
     setPosts((prevState) => [ 
@@ -41,51 +41,25 @@ function App() {
   }
 
   return (
-    <>  
-    <Header>
-      <h2>
-        Posts da Semana
-        <button onClick={handleRefresh}>Atualizar</button>
-      </h2>
-    </Header>
+    <ThemeProvider>  
+      <Header>
+        <h2>
+          Posts da Semana
+          <button onClick={handleRefresh}>Atualizar</button>
+        </h2>
+      </Header>
 
-    <hr />
+      <hr />
 
-    {posts.map( post => (
-      <Post 
-        key={post.id}
-        onRemove={handleRemovePost}
-        onRead={handleReadPost}
-        post={post}
-      />
-    ))}
-
-     {/*  <Post 
-        likes={20}
-        post={{
-          title: 'Título da notícia 1',
-          content: 'Conteúdo da notícia 1'
-        }}
-      />
-
-      <Post 
-      likes={10}
-        post={{
-          title: 'Título da notícia 2',
-          content: 'Conteúdo da notícia 2'
-        }}
-      />
-
-      <Post 
-      likes={50}
-        post={{
-          title: 'Título da notícia 3',
-          content: 'Conteúdo da notícia 3'
-        }}
-      /> */}
-
-
-    </>
+      {posts.map( post => (
+        <Post 
+          key={post.id}
+          onRemove={handleRemovePost}
+          onRead={handleReadPost}
+          post={post}
+        />
+      ))}
+    </ThemeProvider>
 
   );
 }
