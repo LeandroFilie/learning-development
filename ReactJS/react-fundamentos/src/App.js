@@ -4,11 +4,13 @@ import Post from './Post';
 import Header from './Header';
 import { ThemeProvider } from "./ThemeContext";
 
+import styles from './App.scss';
+
 function App() {
   const [ posts, setPosts ] = useState([
-    { id: Math.random(), title: 'Title#01', content: 'Cont#01', likes: 20, read: true},
-    { id: Math.random(), title: 'Title#02', content: 'Cont#02', likes: 20, read: false},
-    { id: Math.random(), title: 'Title#03', content: 'Cont#03', likes: 20, read: false},
+    { id: Math.random(), title: 'Title#01', content: 'Cont#01', likes: 20, read: true, removed: false},
+    { id: Math.random(), title: 'Title#02', content: 'Cont#02', likes: 20, read: false, removed: true},
+    { id: Math.random(), title: 'Title#03', content: 'Cont#03', likes: 20, read: false, removed: false},
   ]);
 
   function handleRefresh(){
@@ -26,7 +28,11 @@ function App() {
 
   function handleRemovePost(postId){
     setPosts((prevState) => (
-      prevState.filter(post => post.id !== postId)
+      prevState.map(post => (
+        post.id === postId
+          ? { ...post, removed: true }
+          : post
+      ))
     ));
   }
 
@@ -35,7 +41,7 @@ function App() {
       prevState.map(post => (
         post.id === postId 
         ? {...post, read: true}
-        : {...post}
+        : post
       ))
     ))
   }
@@ -43,7 +49,7 @@ function App() {
   return (
     <ThemeProvider>  
       <Header>
-        <h2>
+        <h2 className={styles.title}>
           Posts da Semana
           <button onClick={handleRefresh}>Atualizar</button>
         </h2>

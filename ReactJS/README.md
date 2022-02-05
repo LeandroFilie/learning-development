@@ -190,3 +190,78 @@ const ThemeContext = useContext(ThemeContext); //usando um contexto
 Uma regra é que tem que ser criado no corpo do componente, não pode ser dentro de uma função que está dentro do componente por exemplo. Tem que ser diretamente no componente
 
 ### useState
+
+## Estilização no React
+
+### Inline
+Há apenas uma mudança na sintaxe, que as propriedades passam a ser camel case e são passadas através de um objeto
+```js
+style={{
+  background: '#ccc',
+  marginTop: '10px',
+}}
+```
+
+### Arquivos CSS externos
+- É necessário configurar um loader no webpack
+  - Instalar os pacotes css-loader e style-loader e colocar no arquivo webpack.config.js
+  ```js
+    {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader'],
+    },
+  ```
+    - Obs: importante passar o style-loader antes do css-loader
+
+```js
+import './index.css';
+```
+
+### CSS Modules
+- Útil para evitar conflito de classes dentro da aplicação
+- Os CSS Modules geram um nome totalmente aleatório para as classes
+  - Cada classe de cada arquivo ganha uma hash, então mesmo que se tiver dois arquivos com uma mesma classe não haverá conflito <br />
+
+Arquivo webpack.config.js
+```js
+{
+  test: /\.css$/,
+  use: [
+    'style-loader', 
+    {
+      loader: 'css-loader',
+      options: {
+        modules: true,
+      }
+    },
+  ],
+},
+```
+
+Com isso, fica assim para usar no componente
+```js
+import styles from './Header.css';
+
+function Componente(){
+  return <h2 className={styles.nome-da-class}>Conteúdo</h2>
+}
+```
+
+### SASS e SASS Modules
+- Tem que instalar os pacotes do 'sass' e o 'sass-loader' e configurar no webpack
+
+```js
+{
+  test: /\.scss$/,
+  use: [
+    'style-loader', 
+    {
+      loader: 'css-loader',
+      options: {
+        modules: true,
+      }
+    },
+    'sass-loader',
+  ],
+},
+```
