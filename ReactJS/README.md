@@ -186,10 +186,7 @@ import { ThemeContext } from './ThemeContext',
 const ThemeContext = useContext(ThemeContext); //usando um contexto
 ```
 
-## React Hooks
-Uma regra é que tem que ser criado no corpo do componente, não pode ser dentro de uma função que está dentro do componente por exemplo. Tem que ser diretamente no componente
-
-### useState
+## [React Hooks](./react-hooks/README.md)
 
 ## Estilização no React
 
@@ -265,3 +262,9 @@ function Componente(){
   ],
 },
 ```
+
+### [Styled Components](./styled-components/)
+
+
+
+## React Router v5
