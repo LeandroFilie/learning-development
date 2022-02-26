@@ -1,6 +1,7 @@
 # Projetos Ágeis
 Software é construído por partes e cada parte executa-se em um ciclo
 - Partes de do máximo 30 dias
+
 ### Características
 - Escopo definido ao longo do projeto ⇒ adaptativo
 - Projeto controlado por funcionalidades entregues
@@ -13,13 +14,20 @@ Software é construído por partes e cada parte executa-se em um ciclo
   - Equipe mais comprometida com os objetivos
   - Maior valor para o cliente
 
-## SCRUM
-Um dos frameworks de gerenciamento de projetos ágeis
+# SCRUM
+Um dos frameworks de gerenciamento de projetos ágeis.
+O framework Scrum é propositalmente incompleto, apenas definindo as partes necessárias para implementar a teoria Scrum. O Scrum é construído sobre a inteligência coletiva das pessoas que o utilizam. Em vez de fornecer às pessoas instruções detalhadas, as regras do Guia do Scrum orientam seus relacionamentos e interações.
 
-### Pilares do SCRUM
-- Transparência
-- Adaptação
-- Inspeção
+### Pilares
+- Transparência: O processo emergente e o trabalho devem ser visíveis tanto para quem executa o trabalho
+quanto para quem recebe o trabalho;
+
+- Inspeção: Os artefatos do Scrum e o progresso em direção às metas acordadas devem ser inspecionados com frequência e diligência para detectar variações ou problemas potencialmente indesejáveis;
+
+- Adaptação: Se algum aspecto de um processo se desviar fora dos limites aceitáveis ou se o produto resultante for inaceitável, o processo que está sendo aplicado ou os materiais que estão sendo produzidos devem ser ajustados.
+
+### Valores
+Compromisso, Foco, Abertura, Respeito e Coragem
 
 ### Características
 - Conversar mais e escrever menos ⇒ escrever apenas o necessário
@@ -27,50 +35,101 @@ Um dos frameworks de gerenciamento de projetos ágeis
 - Adaptar o software rapidamente
 - Aprender progressivamente com o uso do software
 
-### Características do Time
+## SCRUM Team
 - Equipes capazes de se auto-organizarem
 - Tarefas são do time e todos são responsáveis
-- Forte comprometimento com os resultados
+- Forte comprometimento com os resultados (Meta do Produto)
+- Não há sub-times ou hierarquias
+- Normalmente, conta com 10 pessoas ou menos
 
 ### Product Owner
 - Representante da área de Negócios
   - PO é uma pessoa, não um comitê
 - Define as funcionalidades do software (Product Backlog)
+  - Desenvolver e comunicar explicitamente a meta do produto;
+  - Criar e comunicar claramente os itens do Product Backlog;
+  - Ordenar os itens do Product Backlog; e,
+  - Garantir que o Product Backlog seja transparente, visível e compreensível.
 - Prioriza as funcionalidades de acordo com o valor do negócio
 - Explica o que o time de desenvolvimento precisa fazer
 
 ### Scrum Master
-- Garante o uso correto do SCRUM
+- Garante o uso correto do SCRUM a partir do Guia do Scrum
 - Não é gerente de projetos, não delega as atividades
 - Age como facilitador, auxilia o PO a explicar para o time
   - Auxilia o PO no planejamento e estimativas de Backlog
   - Auxilia a equipe a remover impedimentos
 - Treina o time em autogerenciamento e interdisciplinaridade
 
-### Time de Desenvolvimento
+### Developers
 - Possui habilidades suficientes para desenvolver, testar, criar e desenhar
 - Tudo que for necessário para entregar o software funcionando
 
-## Sprint
+## Eventos Scrum
+
+### Sprint
+- O coração do Scrum
 - Time Box: tempo máximo para fazer uma cerimônia ou sprint
   - Dura no máximo 30 dias corridos (o próprio time define o tempo)
+- Uma nova Sprint começa imediatamente após a conclusão da Sprint anterior
+- Nenhuma mudança é feita que coloque em risco a meta da Sprint;
+- A qualidade não diminui;
+- O Product Backlog é refinado conforme necessário; e,
+- O escopo pode ser esclarecido e renegociado com o Product Owner conforme mais é
+aprendido.
+- Uma Sprint pode ser cancelada se a Meta da Sprint se tornar obsoleta
+  - Apenas o Product Owner tem autoridade para cancelar a Sprint. 
 
-### Reuniões Diárias (Daily Meeting)
+### Sprint Planning
+- Define o trabalho a ser realizado na sprint
+- Por que esta Sprint é valiosa? 
+- O que pode ser feito nesta Sprint?
+- Como o trabalho escolhido será realizado? 
+- Tem um Timebox definido com duração máxima de de 8 horas para uma Sprint de um mês. Para Sprints mais curtas, o evento geralmente é mais curto. 
+
+### Daily Scrum
+O propósito da Daily Scrum é inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado
 - Todos do time participam
 - Time dev responde 3 perguntas: 
   - “O que fez no dia anterior?"
   - “O que está programado para hoje?”
   - “Se tem algum impedimento?"
 - Feita de pé para ser rápida
+  - Evento de 15 minutos, aproximadamente
 - Todos os dias no mesmo horário e lugar
+- As Daily Scrums melhoram as comunicações, identificam os impedimentos, promovem a rápida tomada de decisões e consequentemente, eliminam a necessidade de outras reuniões. 
 
-### Revisão da Sprint (Review)
-- Último dia da Sprint
-- Time dev apresenta para o PO o trabalho feito
 
-### Retrospectiva da Sprint
+### Sprint Review
+- O propósito da Sprint Review é inspecionar o resultado da Sprint e determinar as adaptações futuras
+- Último dia da Sprint, porém é o penúltimo evento
+- Scrum Tema apresenta os resultados de seu trabalho para os principais stakeholders
+- Timebox com prazo máximo de 4 horas para uma Sprint de um mês
+
+### Sprint Retrospective
 - Também no último dia
 - Reunião para as lições aprendidas (pontos positivos e negativos, etc)
+- Timebox de no máximo três horas para uma Sprint de um mês.
+
+## Scrum Artifacts 
+### Product Backlog
+O Product Backlog é uma lista ordenada e emergente do que é necessário para melhorar o produto. É a única fonte de trabalho realizado pelo Scrum Team. <br />
+Os Developers que farão o trabalho são responsáveis pelo dimensionamento. O Product Owner pode influenciar os Developers, ajudando-os a entender e selecionar trade-offs (trocas de itens). <br />
+
+Compromisso: Meta do Produto
+  - descreve um estado futuro do produto que pode servir como um alvo para o Scrum Team planejar
+
+### Sprint Backlog
+O Sprint Backlog é composto pela Meta da Sprint (por que), o conjunto de itens do Product Backlog  selecionados para a Sprint (o que), bem como um plano de ação para entregar o Incremento (como). <br />
+
+Compromisso: Meta da Sprint 
+  - é criada durante o evento Sprint Planning e então adicionada ao Sprint Backlog.
+
+## Incremento
+Cada incremento é adicionado a todos os incrementos anteriores e completamente verificado, garantindo que todos os incrementos funcionem juntos. A fim de fornecer valor, o incremento deve ser utilizável. <br />
+
+Compromisso: Definição de Pronto 
+  -  é uma descrição formal do estado do Incremento quando ela atende às medidas de qualidade exigidas para o produto. 
 
 ## Conceitos e Planejamentos
 
