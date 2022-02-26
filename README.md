@@ -1,4 +1,4 @@
-# Estudos React.js e Node.js
+# Estudos Desenvolvimento WEB
 
 ## Conceitos Básicos
 - [Terminal](Conceitos/Terminal.md)
@@ -21,7 +21,7 @@
  - [SASS](SCSS/README.md)
  - [JavaScript](JavaScript/readme.md)
  - [Node.js](NodeJS/README.md)
- - React.js
+ - [React.js](ReactJS/README.md)
 
 ## Repositórios Úteis
 - [Dicas para command line](https://github.com/jlevy/the-art-of-command-line)
