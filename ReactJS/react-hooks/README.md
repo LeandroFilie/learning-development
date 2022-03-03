@@ -134,7 +134,22 @@ const [ state, dispatch ] = useReducer(reducer, initialValue);
   - essa função dispatch aceita parâmetros, que serão acessados pela variável action
 
 ## useCallback
+Uma função dentro de um componente é memorizada novamente a cada nova alteração no componente. Para resolver isso, tem o useCallback <br />
 
+O useCallback recebe dois parâmetros
+  - Uma função a ser executada
+  - Um array de dependências, que funciona semelhante ao do useEffect. Toda vez que o valor alterar, a função é memorizada novamente
+
+```js
+const handlePlus = useCallback(() => {
+  setCounter((prevState) => prevState + 1);
+}, [])
+```
+
+OBS: NÃO USAR EM TODAS AS FUNÇÕES, MEMORIZAÇÃO TAMBÉM TEM UM CUSTO <br />
+
+#### Quando Usar?
+Quando for necessário passar uma função para componentes filhos, as chamadas funções de callback
 
 ## useMemo
 

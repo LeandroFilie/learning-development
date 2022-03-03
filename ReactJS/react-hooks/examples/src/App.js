@@ -1,3 +1,4 @@
+import ExampleUseCallback from "./components/ExampleUseCallback";
 import ExampleUseContext from "./components/ExampleUseContext";
 import ExampleUseEffect from "./components/ExampleUseEffect";
 import ExampleUseReducer from "./components/ExampleUseReducer";
@@ -6,7 +7,7 @@ import ExampleUseState from "./components/ExampleUseState";
 function App() {
   return (
     <>
-      <h1>useState</h1>
+      {/* <h1>useState</h1>
       <ExampleUseState></ExampleUseState>
 
       <h1>useEffect</h1>
@@ -16,7 +17,10 @@ function App() {
       <ExampleUseContext></ExampleUseContext>
 
       <h1>useReducer</h1>
-      <ExampleUseReducer></ExampleUseReducer>
+      <ExampleUseReducer></ExampleUseReducer> */}
+
+      <h1>useCallback</h1>
+      <ExampleUseCallback></ExampleUseCallback>
     </>
 
   );
