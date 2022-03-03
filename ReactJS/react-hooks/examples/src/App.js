@@ -12,7 +12,7 @@ import ExampleUseState from "./components/ExampleUseState";
 function App() {
   return (
     <>
-      <h1>useState</h1>
+{/*       <h1>useState</h1>
       <ExampleUseState></ExampleUseState>
 
       <h1>useEffect</h1>
@@ -37,7 +37,7 @@ function App() {
       <ExampleUseImperativeHandle></ExampleUseImperativeHandle>
 
       <h1>useLayoutEffect</h1>
-      <ExampleUseLayoutEffect></ExampleUseLayoutEffect>
+      <ExampleUseLayoutEffect></ExampleUseLayoutEffect> */}
 
       <h1>Custom Hooks</h1>
       <ExampleCustomHook></ExampleCustomHook>

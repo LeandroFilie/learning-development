@@ -242,7 +242,18 @@ Para isso, precisa fazer o "encaminhamento de referências", usando a função f
       ```
 
 ## Custom Hooks
+- Usado em conjunto com a extensão 'React Developer Tools'
 - São apenas funções javascript que usam os hooks do react
 - Assim como os hooks do react, tem que começar com 'use'
 
 ### useDebugValue
+- Ferramenta para debugar
+- É executado dentro dos custom hooks
+
+```js
+useDebugValue('Label', (message) => {
+  return `Mensagem: ${message}`
+});
+```
+
+Usado para colocar um label que vai aparecer na frente do nome do hook na extensão
