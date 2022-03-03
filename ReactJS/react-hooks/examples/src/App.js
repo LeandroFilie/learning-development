@@ -3,6 +3,7 @@ import ExampleUseContext from "./components/ExampleUseContext";
 import ExampleUseEffect from "./components/ExampleUseEffect";
 import ExampleUseMemo from "./components/ExampleUseMemo";
 import ExampleUseReducer from "./components/ExampleUseReducer";
+import ExampleUseRef from "./components/ExampleUseRef";
 import ExampleUseState from "./components/ExampleUseState";
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
 
       <h1>useMemo</h1>
       <ExampleUseMemo></ExampleUseMemo>
+
+      <h1>useRef</h1>
+      <ExampleUseRef></ExampleUseRef>
     </>
 
   );

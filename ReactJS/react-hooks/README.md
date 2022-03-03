@@ -164,7 +164,40 @@ const total = useMemo(() => {
 Dessa maneira, o valor do counter não precisará ser recalculado em toda atualização de quaisquer outros states que tenham no componente.
 
 ## useRef
+### Primeiro Uso
+Armazenar valores que podem ser alterados dentro do componente, porém quando esses valores forem alterados, o componente não sofre uma nova renderização. <br />
 
+- Recebe como único argumento o valor inicial
+
+```js
+const number = useRef(0)
+
+function handleSetValue(){
+  const newNumber = Math.round(Math.random() * (10 - 1) + 1);
+  number.current = newNumber;
+}
+```
+O useRef retorna um current, então para manipulá-lo é só seguir o exemplo acima
+
+### Segundo Uso
+Acessar elementos da arvore DOM de forma imperativa
+
+```js
+const inputRef = useRef(null);
+
+  function handlePrintName(){
+    console.log(inputRef.current);
+  }
+
+  return (
+    <div>
+      <input ref={inputRef} />
+      <button onClick={handlePrintName}>Print Name</button>
+    </div>
+  )
+```
+
+Dessa forma, o que é retornado no current é o elemento html em si, podendo ser manipulado
 
 ## useImperativeHandle
 
