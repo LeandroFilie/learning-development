@@ -2,6 +2,7 @@ import ExampleUseCallback from "./components/ExampleUseCallback";
 import ExampleUseContext from "./components/ExampleUseContext";
 import ExampleUseEffect from "./components/ExampleUseEffect";
 import ExampleUseImperativeHandle from "./components/ExampleUseImperativeHandle";
+import ExampleUseLayoutEffect from "./components/ExampleUseLayoutEffect";
 import ExampleUseMemo from "./components/ExampleUseMemo";
 import ExampleUseReducer from "./components/ExampleUseReducer";
 import ExampleUseRef from "./components/ExampleUseRef";
@@ -33,6 +34,9 @@ function App() {
 
       <h1>useImperativeHandle</h1>
       <ExampleUseImperativeHandle></ExampleUseImperativeHandle>
+
+      <h1>useLayoutEffect</h1>
+      <ExampleUseLayoutEffect></ExampleUseLayoutEffect>
     </>
 
   );

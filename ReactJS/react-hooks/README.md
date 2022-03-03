@@ -75,6 +75,24 @@ useEffect(() => {
   })
 ```
 
+### useEffect vs useLayoutEffect
+
+#### Renderização de um Componente
+Triggers (gatilhos que quando disparados ocasionam a renderização)
+  - Primeiro render
+  - Alteração de state
+  - ALteração de propriedade <br />
+
+React COMPUTA as alterações <br />
+
+useLayoutEffect -> síncrona <br />
+
+Exibir as alterações para o usuário <br />
+
+useEffect -> assíncrona <br />
+
+O useEffect executa quando o componente já está renderizado, enquanto o useLayoutEffect é executado antes das alterações serem exibidas, e de forma síncrona
+
 
 ## useContext
 - Criando contexto
