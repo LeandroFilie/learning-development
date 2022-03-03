@@ -1,7 +1,7 @@
 # React Hooks
 Uma regra é que tem que ser criado no corpo do componente, não pode ser dentro de uma função que está dentro do componente por exemplo. Tem que ser diretamente no componente
 
-### useState
+## useState
 States em componentes funcionais. <br />
 ```js
 const [ name, setName ] = useState('Leandro')
@@ -29,7 +29,7 @@ function handlePlus(){
 
 prevState representa o valor no momento em que o react está fazendo a atualização do estado
 
-### useEffect
+## useEffect
 Manipula o lifecycle do react
 
 ```js
@@ -76,22 +76,48 @@ useEffect(() => {
 ```
 
 
-### useContext
+## useContext
+- Criando contexto
+```js
+import React, { createContext } from "react";
+
+const ThemeContext = createContext();
+
+function ExampleUseContext () {
+  <ThemeContext.Provider value={{ mode: 'dark' }}>
+    <Button></Button>
+  </ThemeContext.Provider>
+}
+
+```
+
+- Usando o contexto
+```js
+function Button () {
+  const theme = useContext(ThemeContext)
+  return (
+    <button>
+      {theme.mode}
+    </button>
+  )
+}
+
+```
+Mais sobre a Context API do react, [clique aqui](../README.md#context-api)
+
+## useReducer
 
 
-### useReducer
+## useCallback
 
 
-### useCallback
+## useMemo
 
 
-### useMemo
+## useRef
 
 
-### useRef
-
-
-### useImperativeHandle
+## useImperativeHandle
 
 
 ## Custom Hooks
