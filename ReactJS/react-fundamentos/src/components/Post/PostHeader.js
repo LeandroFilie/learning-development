@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from './Button';
+import Button from '../Button';
 
 export default function PostHeader(props) {
   return (
@@ -12,13 +12,6 @@ export default function PostHeader(props) {
       <Button onClick={() => props.onRemove(props.post.id)}>
         Remover
       </Button>
-      {
-        !props.post.read && (
-          <Button onClick={() => props.onRead(props.post.id)}>
-            Marcar como Lido
-          </Button>
-        )
-      }
 
     </>
   )
@@ -26,7 +19,6 @@ export default function PostHeader(props) {
 
 PostHeader.propTypes = {
   onRemove: PropTypes.func.isRequired,
-  onRead: PropTypes.func.isRequired,
   post: PropTypes.shape({
     id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,

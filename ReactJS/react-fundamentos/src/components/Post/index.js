@@ -3,39 +3,31 @@ import PropTypes from 'prop-types';
 
 import PostHeader from "./PostHeader";
 
-import styles from './Post.scss';
-console.log(styles);
-console.log(`${styles.post}.${styles.deleted}`);
+import { Container, Subtitle, Rate } from './styles';
 
 export default function Post (props){
   return (
-    <article 
-      className={
-        props.post.removed
-          ? `${styles.post} ${styles.deleted}`
-          : styles.post
-      }
-    >
+    <Container removed={props.post.removed}>
       <PostHeader
         onRemove={props.onRemove}
-        onRead={props.onRead}
         post={{
           id: props.post.id,
           title: props.post.title,
-          read: props.post.read,
         }}
       />
-      <br />
-      <small>{props.post.content}</small>
-      <br />
-      Media: {props.post.likes /2 }
-    </article>
+      
+      <Subtitle>{props.post.content}</Subtitle>
+      
+      <Rate>
+        Media: {props.post.likes /2 }
+      </Rate>
+      
+    </Container>
   )
 }
 
 Post.propTypes = {
   onRemove: PropTypes.func.isRequired,
-  onRead: PropTypes.func.isRequired,
   post: PropTypes.shape({
     id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,

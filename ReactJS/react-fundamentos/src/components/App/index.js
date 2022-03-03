@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-import Post from './Post';
-import Header from './Header';
-import { ThemeProvider } from "./ThemeContext";
+import Post from '../Post';
+import Header from '../Header';
+import { ThemeProvider } from "../../context/ThemeContext";
 
-import styles from './App.scss';
+import { Title } from "./styles";
 
 function App() {
   const [ posts, setPosts ] = useState([
@@ -36,23 +36,13 @@ function App() {
     ));
   }
 
-  function handleReadPost(postId){
-    setPosts((prevState) => (
-      prevState.map(post => (
-        post.id === postId 
-        ? {...post, read: true}
-        : post
-      ))
-    ))
-  }
-
   return (
     <ThemeProvider>  
       <Header>
-        <h2 className={styles.title}>
+        <Title as="h2">
           Posts da Semana
           <button onClick={handleRefresh}>Atualizar</button>
-        </h2>
+        </Title>
       </Header>
 
       <hr />
@@ -61,7 +51,6 @@ function App() {
         <Post 
           key={post.id}
           onRemove={handleRemovePost}
-          onRead={handleReadPost}
           post={post}
         />
       ))}
