@@ -1,5 +1,6 @@
 import ExampleUseContext from "./components/ExampleUseContext";
 import ExampleUseEffect from "./components/ExampleUseEffect";
+import ExampleUseReducer from "./components/ExampleUseReducer";
 import ExampleUseState from "./components/ExampleUseState";
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
 
       <h1>useContext</h1>
       <ExampleUseContext></ExampleUseContext>
+
+      <h1>useReducer</h1>
+      <ExampleUseReducer></ExampleUseReducer>
     </>
 
   );

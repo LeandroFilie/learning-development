@@ -106,7 +106,32 @@ function Button () {
 Mais sobre a Context API do react, [clique aqui](../README.md#context-api)
 
 ## useReducer
+- Forma de manipular um ou mais estados ao mesmo tempo a partir de um disparo de eventos
 
+```js
+function reducer(state, action){}
+
+const initialValue = {
+  counter: 0,
+  clicks: 0,
+}
+
+const [ state, dispatch ] = useReducer(reducer, initialValue);
+```
+
+- O primeiro argumento da função do useReducer é uma função
+  - Essa função recebe o state e o action
+    - action: são os argumentos passados na hora da chamada da função
+    - state: é o valor atual do estado
+- O segundo argumento é o estado inicial, que pode ser de qualquer tipo
+- O terceiro parâmetro é outra função, chamada initializer, que recebe como parâmetro o valor passado como segundo argumento do useReducer
+  - Executa somente uma vez; quando o componente é montado na tela
+  - retorna um valor que será de fato o valor inicial do useReducer
+  - Pouco usado no dia-a-dia
+
+- dispatch vai executar a função passada como primeiro argumento no useReducer
+  - Sempre precisará retornar algo, que será o state atualizado
+  - essa função dispatch aceita parâmetros, que serão acessados pela variável action
 
 ## useCallback
 
