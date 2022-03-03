@@ -137,7 +137,7 @@ const [ state, dispatch ] = useReducer(reducer, initialValue);
 Uma função dentro de um componente é memorizada novamente a cada nova alteração no componente. Para resolver isso, tem o useCallback <br />
 
 O useCallback recebe dois parâmetros
-  - Uma função a ser executada
+  - Uma função a ser retornada
   - Um array de dependências, que funciona semelhante ao do useEffect. Toda vez que o valor alterar, a função é memorizada novamente
 
 ```js
@@ -152,7 +152,16 @@ OBS: NÃO USAR EM TODAS AS FUNÇÕES, MEMORIZAÇÃO TAMBÉM TEM UM CUSTO <br />
 Quando for necessário passar uma função para componentes filhos, as chamadas funções de callback
 
 ## useMemo
+Memorização de valores. <br />
+Diferente do useCallback, que retornada uma função, o useMemo irá executar a função passada.
 
+```js
+const total = useMemo(() => {
+  return (counter * 219827347 * 328473248 * 2834723048);
+}, [counter]);
+```
+
+Dessa maneira, o valor do counter não precisará ser recalculado em toda atualização de quaisquer outros states que tenham no componente.
 
 ## useRef
 
