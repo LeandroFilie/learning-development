@@ -200,7 +200,28 @@ const inputRef = useRef(null);
 Dessa forma, o que é retornado no current é o elemento html em si, podendo ser manipulado
 
 ## useImperativeHandle
+Acessar de forma imperativa componentes criados, e não tags HTML, como o useRef faz. <br />
 
+Para isso, precisa fazer o "encaminhamento de referências", usando a função forwardRef
+  - Essa função recebe um único parâmetro: o corpo do componente
+    - Componente Form usando o forwardRef
+      ```js
+        const Form = forwardRef((props, ref) => {
+        const inputRef = useRef(null);
+
+        useImperativeHandle(
+          ref, // a referência
+          () => {}, //função, onde seu retorno é o valor que será assumido pela referência. Tudo que for retornado, poderá ser acessado com o .current
+          [] // array de dependências
+        )
+
+        return (
+          <form>
+            <input  ref={inputRef}/>
+          </form>
+        )
+      })
+      ```
 
 ## Custom Hooks
 
