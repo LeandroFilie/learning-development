@@ -256,4 +256,4 @@ useDebugValue('Label', (message) => {
 });
 ```
 
-Usado para colocar um label que vai aparecer na frente do nome do hook na extensão
+Usado para colocar um label que vai aparecer na frente do nome do hook na extensão.
