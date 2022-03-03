@@ -242,6 +242,7 @@ Para isso, precisa fazer o "encaminhamento de referências", usando a função f
       ```
 
 ## Custom Hooks
-
+- São apenas funções javascript que usam os hooks do react
+- Assim como os hooks do react, tem que começar com 'use'
 
 ### useDebugValue

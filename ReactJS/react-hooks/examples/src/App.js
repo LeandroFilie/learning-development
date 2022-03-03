@@ -1,3 +1,4 @@
+import ExampleCustomHook from "./components/ExampleCustomHooks";
 import ExampleUseCallback from "./components/ExampleUseCallback";
 import ExampleUseContext from "./components/ExampleUseContext";
 import ExampleUseEffect from "./components/ExampleUseEffect";
@@ -37,6 +38,9 @@ function App() {
 
       <h1>useLayoutEffect</h1>
       <ExampleUseLayoutEffect></ExampleUseLayoutEffect>
+
+      <h1>Custom Hooks</h1>
+      <ExampleCustomHook></ExampleCustomHook>
     </>
 
   );
