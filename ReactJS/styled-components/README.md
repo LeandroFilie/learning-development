@@ -88,5 +88,13 @@ export const Container = styled.article`
 ```
 
 ## Theming
+É basicamente o styleguide de um projeto, fazendo com que as informações padrões fiquem em único arquivo e quando seja necessária alguma alteração é só alterar um lugar
+
+### ThemeProvider
+- É um provider da ContextAPI
+
+```js
+import { ThemeProvider } from 'styled-components';
+```
 
 ## useTheme
