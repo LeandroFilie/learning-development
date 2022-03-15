@@ -32,9 +32,7 @@
 - [Perguntas para entrevistas](https://github.com/yangshun/tech-interview-handbook)
 - [Perguntas e Respostas](https://github.com/lydiahallie/javascript-questions/blob/master/pt-BR/README_pt_BR.md)
 
-- [Projetos HTML e CSS](https://github.com/rafaballerini/10ProjetosHTMLeCSS)
 - [Dicas CSS](https://github.com/AllThingsSmitty/css-protips)
-
 - [Dias para JS ES6](https://github.com/metagrover/ES6-for-humans)
 - [Ferramentas JS](https://github.com/verekia/js-stack-from-scratch)
 - [Boas praticas Node.js](https://github.com/goldbergyoni/nodebestpractices)
@@ -42,14 +40,11 @@
 - [Algoritmos e Estrutura de Dados JS](https://github.com/trekhleb/javascript-algorithms)
 - [Padrões de Projeto](https://github.com/elsewhencode/project-guidelines)
 - [Boas práticas em Testes](https://github.com/goldbergyoni/javascript-testing-best-practices)
-
 - [Dicas Front-End](https://github.com/thedaviddias/Front-End-Checklist)
-- [Desafios Front-End](https://github.com/felipefialho/frontend-challenges)
 - [Public APIs](https://github.com/public-apis/public-apis)
-- [App Ideas Collection](https://github.com/florinpop17/app-ideas)
+
 - [Guia Dev Brasil](https://github.com/arthurspk/guiadevbrasil)
 - [Front-End BR](https://github.com/frontendbr)
-- [Canal do youtube com ideias de projetos](https://github.com/bedimcode/)
 
 - [Exemplos de Readme](https://github.com/iuricode/readme-template)
 
@@ -70,11 +65,9 @@
 - [CSS LAYOUT](https://csslayout.io/): gerador de códigos CSS
 - [Menus](https://march08.github.io/animated-burgers/): menus hamburguers animados
 - [loading.io](loading.io): gerador de svg de ícones animados de loading
-- [FrontEnd Mentor](https://www.frontendmentor.io/): site com desafios para treinar front-end
-- 
+
 ### JS
 - [Refactoring.Guru](https://refactoring.guru/pt-br): refatoração, padrões de projeto, princípios SOLID, e outros tópicos de programação inteligente
-- [DevChallenger](https://www.devchallenge.com.br/): site com desafios de front e back
 - [Regexr](regexr.com): gerador de regex
 - [iHateRegex](ihateregex.io): gerador de regex
 - Biblioteca de Animações
@@ -88,6 +81,15 @@
 - [Lorem Picsum](picsum.photos): gerador de imagens aleatórias
 - [Epoch Converter](www.epochconverter.com): conversor de data em timestanp para tempo normal e vice-versa
 - [TinyPNG](tinypng.com): compressor de imagens
+
+### Desafios
+- [DevChallenges](https://devchallenges.io/)
+- [DevChallenger](https://www.devchallenge.com.br/)
+- [FrontEnd Mentor](https://www.frontendmentor.io/)
+- [Canal do youtube com ideias de projetos](https://github.com/bedimcode/)
+- [App Ideas Collection](https://github.com/florinpop17/app-ideas)
+- [Desafios Front-End](https://github.com/felipefialho/frontend-challenges)
+- [Projetos HTML e CSS](https://github.com/rafaballerini/10ProjetosHTMLeCSS)
 
 ## Cursos
 ### JavaScript
