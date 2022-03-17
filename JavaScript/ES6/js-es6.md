@@ -17,12 +17,11 @@
 ## [Promises](05-promises.js)
 Promises são usadas quando tarefas muito pesadas ou que podem demorar são executadas. Ex: consulta ao BD
 
+
+### [Async/Await](12-Async-Await.js)
 - Promises (.then e .catch) vs Async/Await
   - Quando usamos o .then, o código não fica travado
   - No async/await o código só continua se a linha que tiver await terminar de ser executada
-
-### [Async/Await](12-Async-Await.js)
-
 
 ### [Callbacks](11-callback.js)
 Callbacks executam algo após uma tarefa síncrona ter sido executada
@@ -30,9 +29,6 @@ Callbacks executam algo após uma tarefa síncrona ter sido executada
 
 ## Consumir APIs
 ### [Fetch](14-fetch/fetch.js)
-
-### [Axios]()
-
 
 ## [ES Modules](07-Modules)
 Por padrão, o node não aceita, apenas com Babel (transpilador de código)
