@@ -7,7 +7,7 @@
 
 - [Scrum](Conceitos/scrum.md)
 
-- GIT
+- [GIT](Conceitos/git.md)
    - [Treinar Git](https://learngitbranching.js.org/?locale=pt_BR)
 
 - [Estrutura de Dados](Conceitos/EstruturaDados.md)
