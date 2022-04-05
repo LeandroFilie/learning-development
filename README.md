@@ -34,7 +34,9 @@
 
 - [Dicas CSS](https://github.com/AllThingsSmitty/css-protips)
 - [Dias para JS ES6](https://github.com/metagrover/ES6-for-humans)
+- [JS Tips](https://github.com/loverajoel/jstips)
 - [Ferramentas JS](https://github.com/verekia/js-stack-from-scratch)
+- [429 Perguntas/Respostas técnicas para entrevistas](https://github.com/sudheerj/javascript-interview-questions)
 - [Boas praticas Node.js](https://github.com/goldbergyoni/nodebestpractices)
 - [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Algoritmos e Estrutura de Dados JS](https://github.com/trekhleb/javascript-algorithms)
@@ -56,6 +58,8 @@
 - [Marvel](https://developer.marvel.com)
 - [IMDb](https://developer.imdb.com)
 - [Nasa](https://api.nasa.gov)
+- [Gerar QR Code](https://goqr.me/api/)
+- [OpenWeather](https://openweathermap.org/api)
 
 ### CSS
 - [bounce.js](bouncejs.com): biblioteca de animações em JS
@@ -65,6 +69,11 @@
 - [CSS LAYOUT](https://csslayout.io/): gerador de códigos CSS
 - [Menus](https://march08.github.io/animated-burgers/): menus hamburguers animados
 - [loading.io](loading.io): gerador de svg de ícones animados de loading
+- [CSS-Triks](https://css-tricks.com/): artigos, tutoriais e dicas
+- [CSS Matic](https://www.cssmatic.com/): gerador de border-radius, box-shadow, gradiente e mais
+- [CSS Gradient](cssgradient.io): gerador de gradientes
+- [Layoutit Grid](grid.layoutit.com): gerador de grid
+- [Glassmorphism](glassmorphism.com): gerador do efeito de vidro fosco
 
 ### JS
 - [Refactoring.Guru](https://refactoring.guru/pt-br): refatoração, padrões de projeto, princípios SOLID, e outros tópicos de programação inteligente
@@ -81,6 +90,7 @@
 - [Lorem Picsum](picsum.photos): gerador de imagens aleatórias
 - [Epoch Converter](www.epochconverter.com): conversor de data em timestanp para tempo normal e vice-versa
 - [TinyPNG](tinypng.com): compressor de imagens
+- [Shape Divider](https://www.shapedivider.app/): gerador de formas para backgorund
 
 ### Desafios
 - [DevChallenges](https://devchallenges.io/)
@@ -90,19 +100,4 @@
 - [App Ideas Collection](https://github.com/florinpop17/app-ideas)
 - [Desafios Front-End](https://github.com/felipefialho/frontend-challenges)
 - [Projetos HTML e CSS](https://github.com/rafaballerini/10ProjetosHTMLeCSS)
-
-## Cursos
-### JavaScript
-  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=JavaScript)
-  - [Curso em Vídeo](https://www.cursoemvideo.com/course/javascript/)
-  - [Origamid](https://youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt)
-  - [Curso Completo Youtube](https://youtu.be/i6Oi-YtXnAU)
-### TypeScript
-  - [Digital Innovation One](https://web.digitalinnovation.one/browse?filter=TypeScript)
-  - [Rocketseat](https://youtu.be/0mYq5LrQN1s)
-  - [Mini-Curso](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_)
-### [Discover](https://app.rocketseat.com.br/discover)
-  - Git e GitHub
-  - HTML
-  - CSS
-  - JavaScript
+- [The Odin Project](https://www.theodinproject.com/)
