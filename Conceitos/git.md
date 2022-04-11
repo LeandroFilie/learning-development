@@ -100,3 +100,13 @@
 - git revert: não manipula os estados dos arquivos, mas sim os commits
   - <code>git revert [commit]</code>
     - Cria um novo commit tirando as alterações do commit desejado
+
+## Estruturar commits
+- Commits atômicos: commits contendo o início, meio e fim de tal implementação
+- Assunto
+  - curto e compreensível
+  - até 50 caracteres
+  - começar com letra maiúscula
+  - não terminar em ponto
+  - escrito de forma imperativa
+- [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
