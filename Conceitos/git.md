@@ -52,7 +52,7 @@
 - <code>git checkout [nome_branch]</code>: mover entre branchs
   - <code>git checkout -b [nome_branch]</code>: criando e movendo para a nova branch
 
-- <code>git merge [nome_branch]: fundir duas branchs
+- <code>git merge [nome_branch]</code>: fundir duas branchs
   - Primeiro: ir para a branch
   - Segundo: fundir na branch atual, a branch que quiser
 
