@@ -1,12 +1,11 @@
+# Callbacks
+- Callbacks executam algo após uma tarefa síncrona ter sido executada
+- É uma função passada como argumento para outra função
+
+```js
 function doSomething(callback){
   setTimeout(function(){
     callback('First data');
-  }, 1000);
-}
-
-function doOtherThing(callback){
-  setTimeout(function(){
-    callback('Second data');
   }, 1000);
 }
 
@@ -39,3 +38,5 @@ function doAll(){
 }
 
 doAll();
+
+```

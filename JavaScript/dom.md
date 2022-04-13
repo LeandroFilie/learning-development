@@ -1,4 +1,8 @@
 # DOM - Document Object Model
+- É o HTML convertido em JS
+  - JS usa a DOM para se conectar ao HTML
+    - Com isso, é possível manipular o HTML através do JS
+- Estrutura de dados do tipo árvore, criada pelo browser
 
 ## Selecionando Elementos
 

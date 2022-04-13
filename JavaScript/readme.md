@@ -2,6 +2,10 @@
 Javascript é como nós chamamos a linguagem (mas isso é o trademark da Oracle), o nome oficial da linguagem é ECMAScript (ES) é a abreviação.
 
 ## Conceitos
+- [Programação Orientada a Objetos](./Conceitos/poo.md)
+- [JS6](ES6/README.md)
+- [Prototype](prototype.md)
+- [DOM - Document Object Model](dom.md)
 
 ### Hoisting
 Içamento de funções e variáveis para o topo do código, isso declara as variáveis e funções em memória e permite que você use uma função/variável antes mesmo de declara-la.
@@ -24,7 +28,6 @@ console.log(x);
 ### Imutabilidade
 - Uma variável nunca se altera, se precisar mudar, cria outra variável
 
-Exemplo 1
 ```js
 const user = {
   name: 'Leandro',
@@ -71,7 +74,7 @@ console.log(soma(4));
 console.log(soma(5));
 ```
 
-### Design Patterns
+## Design Patterns
 Padrões de projeto reutilizáveis para problemas comuns
 
 [Ver todos](design_patterns.md)
@@ -80,9 +83,9 @@ Padrões de projeto reutilizáveis para problemas comuns
 
 ### Primitive
 - String: conjunto de caracteres
-  - (" ") aspas duplas
-  - (' ') aspas simples
-  - (` `) template string
+  - " " aspas duplas
+  - ' ' aspas simples
+  - \` \` template string
 
 - Number: números
   - Int
@@ -102,10 +105,11 @@ Padrões de projeto reutilizáveis para problemas comuns
 - Objeto: {propriedade: "valor"}
   - [Funções de Objetos](objects.md)
 
-- Array: []
-  - [Iterando Arrays](ES6/09-hof.js)
+- Array: [ ]
+  - [Iterando Arrays](ES6/09-hof.md)
 
 - [Functions](functions.md)
+  - [Functions no JS ES6](ES6/01-functions.md)
 
 ### Structural Root Primitive
 - Null: nulo
@@ -115,7 +119,6 @@ JS é fracamente tipada
 - [Var](#var), [Let e const](#Let-e-Const)
 - Destructuring
   - Arrays e Objetos
-- [Rest e Spread Operator](rest-spread-operator.md)
 
 ### Statements do JavaScript
   - [Controle de Fluxo](control_flow.md)
@@ -193,19 +196,3 @@ const persons = ['Pessoa 1', 'Pessoa 2', 'Pessoa 3'];
 persons[1] = 'Pessoa X'; // array também pode alterar
 console.log(persons);
 ```
-
-
-## DOM - Document Object Model
-- É o HTML convertido em JS
-  - JS usa a DOM para se conectar ao HTML
-    - Com isso, é possível manipular o HTML através do JS
-- Estrutura de dados do tipo árvore, criada pelo browser
-
-- [Selecionar Elementos](dom.md/#Selecionando-Elementos)
-- [Manipular Conteúdos](dom.md/#Manipulando-Conteúdos)
-
-## [JS6](ES6/js-es6.md)
-
-## Programação Orientada a Objetos
-
-[Exemplos](./Conceitos/poo.md)

@@ -42,10 +42,6 @@ delete person.age
 - Decremento (--)
 - Exponencial (**)
 
-## Grouping Operator
-()
-- Utilizado para operações Matemáticas, principalmente
-
 ## Operadores de Comparação
 - Igual a (==)
   - Estritamente igual (===)
