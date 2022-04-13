@@ -1,5 +1,6 @@
 # Node.js
-Plataforma (runtime) que permite executar JavaScript no servidor
+Plataforma (runtime) que permite executar JavaScript no servidor <br />
+[Exemplo de API simples utilizando os conceitos aqui mostrados](https://github.com/LeandroFilie/first-api)
 
 ## Características
 
