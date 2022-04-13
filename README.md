@@ -7,8 +7,8 @@
 
 - [Scrum](Conceitos/scrum.md)
 
-- [GIT](Conceitos/git.md)
-   - [Treinar Git](https://learngitbranching.js.org/?locale=pt_BR)
+- [Git](Conceitos/git.md)
+   - [Treinar](https://learngitbranching.js.org/?locale=pt_BR)
 
 - [Estrutura de Dados](Conceitos/EstruturaDados.md)
 
@@ -18,7 +18,7 @@
 
 ## Tecnologias
  - [HTML](HTML/README.md)
- - [SASS](SCSS/README.md)
+ - [SASS](SCSS/readme.md)
  - [JavaScript](JavaScript/readme.md)
  - [Node.js](NodeJS/README.md)
  - [React.js](ReactJS/README.md)
@@ -50,8 +50,8 @@
 
 - [Exemplos de Readme](https://github.com/iuricode/readme-template)
 
-### Roadpmap
-[Roadmap Front-End](https://github.com/iuricode/front-end-do-zero)
+### Roadmap
+[Roadmap Front-End](https://14habits.com/static/img/roadmap-frontend.png)
 
 ## Sites uteis
 ### APIs para usar nos projetos
