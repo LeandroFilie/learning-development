@@ -2,7 +2,7 @@
 Javascript é como nós chamamos a linguagem (mas isso é o trademark da Oracle), o nome oficial da linguagem é ECMAScript (ES) é a abreviação.
 
 ## Conceitos
-- [Programação Orientada a Objetos](./Conceitos/poo.md)
+- [Programação Orientada a Objetos](../Conceitos/poo.md)
 - [JS6](ES6/README.md)
 - [Prototype](prototype.md)
 - [DOM - Document Object Model](dom.md)
@@ -117,8 +117,6 @@ Padrões de projeto reutilizáveis para problemas comuns
 ## Variáveis
 JS é fracamente tipada
 - [Var](#var), [Let e const](#Let-e-Const)
-- Destructuring
-  - Arrays e Objetos
 
 ### Statements do JavaScript
   - [Controle de Fluxo](control_flow.md)
@@ -129,12 +127,6 @@ JS é fracamente tipada
   - Métodos de array e objeto
 
 ### [Expressões e Operadores](expressions_operators.md)
-
-
-
-### Promises
-  - Fetch
-  - Async/Await
 
 ## Scope
 - Determina a visibilidade de alguma variável

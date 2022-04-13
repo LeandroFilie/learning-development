@@ -7,7 +7,7 @@
   - Uma function tem seu próprio this, enquanto a arrow function tem o this do escopo em que foi criada
 
 ### Operators
-  - [Destructuring](02-Destructuring.md)
+  - [Destructuring](02-destructuring.md)
   - [Rest e Spread](03-rest-spread.md)
   - [Binário](10-binario.md)
 

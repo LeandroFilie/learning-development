@@ -1,6 +1,6 @@
 # Rest Operator
 
-## Sem Rest Operator
+### Sem Rest Operator
 
 ```js
 function sum(a, b){
@@ -17,7 +17,7 @@ function sum(a, b){
 console.log((sum(1, 2, 3, 4, 5)));
 ```
 
-## Com Rest Operator
+### Com Rest Operator
 - rest retorna um array, que vem junto com os métodos de array
 - SEMPRE PRECISA SER A ULTIMA VARIÁVEL
 
