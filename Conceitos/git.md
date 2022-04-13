@@ -1,4 +1,4 @@
-# GIT - Versionamento de Código
+# Git - Versionamento de Código
 - Controle de versão de sistema distribuído
 
 ## Tópicos Fundamentais
