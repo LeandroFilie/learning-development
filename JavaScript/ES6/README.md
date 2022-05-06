@@ -11,20 +11,22 @@
   - [Rest e Spread](03-rest-spread.md)
   - [Binário](10-binario.md)
 
-### [Promises](05-promises.md)
-Promises são usadas quando tarefas muito pesadas ou que podem demorar são executadas. Ex: consulta ao BD
+### JavaScript Assíncrono
+Por padrão, o JavaScript é síncrono, ou seja, tarefas que executam após a tarefa anterior terminar<br />
+Assíncrono: tarefas serem executadas de maneira independente de uma da outra
 
+#### [Promises](05-promises.md)
 
-### [Async/Await](12-Async-Await.md)
+#### [Async/Await](12-Async-Await.md)
 - Promises (.then e .catch) vs Async/Await
   - Quando usamos o .then, o código não fica travado
   - No async/await o código só continua se a linha que tiver await terminar de ser executada
 
-### [Callbacks](11-callback.md)
+#### Consumir APIs
+- [Fetch](14-fetch.md)
+- [Axios](axios.md)
 
-### Consumir APIs
-- [Fetch](14-fetch/fetch.js)
--  Axios
+### [Callbacks](11-callback.md)
 
 ### [Helpers](08-helpers.md)
 

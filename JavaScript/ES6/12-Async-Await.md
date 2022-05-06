@@ -7,10 +7,11 @@ async function run(){
   try{
     const resposta = await fn //JS só sai dessa linha no momento em que a promise finalizar
     console.log(resposta);
-  }
-  catch (erro){
+  } catch (erro){
     // erro será o mesmo do reject
     console.log(erro);
+  } finally {
+    console.log("Roda sempre")
   }
 }
 ```js

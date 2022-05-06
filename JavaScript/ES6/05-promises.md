@@ -1,6 +1,10 @@
 # Promises
-- Uma promise recebe duas funções, resolve e reject
-- Uma promise só é resolvida ou rejeitada quando executa as funções(resolve ou reject)
+Promises são usadas quando tarefas muito pesadas ou que podem demorar são executadas. Ex: consulta ao BD, leitura de dados em uma API<br />
+É um objeto javascript com a promessa de que algo será realizado. Ela tem 4 estágios:
+  - Pending: estado inicial, assim que o objeto é iniciado
+  - Fulfilled: a promessa foi concluída com sucesso
+  - Rejected: houve erro na execução da promessa
+  - Settled: foi concluída, com sucesso ou com erro
 
 ```js
 const apiCallPending = new Promise((resolve, reject) => {
@@ -9,15 +13,18 @@ const apiCallPending = new Promise((resolve, reject) => {
 ```
 
 ```js
-fn
-  .then((resposta) => {
+apiCallPending
+  .then((result) => {
     //resolve
     console.log(resposta);
   })
-  .catch((erro) => {
+  .catch((error) => {
     //reject
     console.log(erro);
-  }) */
+  })
+  .finally(() => {
+    console.log("Finalizada");
+  })
 ```
 
 ## Processamento paralelo
