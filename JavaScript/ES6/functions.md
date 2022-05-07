@@ -1,6 +1,6 @@
 # Functions ES6
 
-# THIS
+# This
 ## Função normal
 ```js
 function myFunction(){

@@ -109,7 +109,7 @@ Padrões de projeto reutilizáveis para problemas comuns
   - [Iterando Arrays](ES6/09-hof.md)
 
 - [Functions](functions.md)
-  - [Functions no JS ES6](ES6/01-functions.md)
+  - [Functions no JS ES6](ES6/functions.md)
 
 ### Structural Root Primitive
 - Null: nulo
