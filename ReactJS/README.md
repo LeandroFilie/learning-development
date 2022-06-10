@@ -188,6 +188,10 @@ const ThemeContext = useContext(ThemeContext); //usando um contexto
 
 ## [React Hooks](./react-hooks/README.md)
 
+## Lifecycle
+- Ordem em que as coisas acontecem no componente até ele chegar a tela do usuário
+- Para manipular o ciclo de vida de um componente, é usado o useEffect ou o useLayoutEffect
+
 ## Estilização no React
 
 ### Inline
