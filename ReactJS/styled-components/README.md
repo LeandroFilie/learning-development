@@ -98,3 +98,14 @@ import { ThemeProvider } from 'styled-components';
 ```
 
 ## useTheme
+- É um custom hook
+- Basicamente o useContext da ContextAPI, porém dentro do useTheme já está sendo passado o contexto
+```js
+import { useTheme } from 'styled-components';
+
+export default function componente(){
+  const theme = useTheme();
+}
+```
+
+-  Retorna um objeto com os valores do tema dentro dos componentes, não mais apenas somente no styled
