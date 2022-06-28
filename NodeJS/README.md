@@ -57,7 +57,8 @@ Troca de mensagens entre duas pontas
   - Qual ação queremos tomar em cima do recurso identificado pela URL
   - GET: consulta de dados
   - POST: criação de registros
-  - PUT: alteração de registros
+  - PUT: alteração completa de registros
+  - PATCH: alteração parcial de registros
   - DELETE: deleção de registros
   
 - Headers
