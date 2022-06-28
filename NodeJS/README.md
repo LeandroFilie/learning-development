@@ -155,7 +155,7 @@ Middlewares controlam o life cycle, podendo fazer com que a aplicação continue
 - <code>docker container ls -a</code> ou <code>docker ps -a</code> : lista os container parados ou rodando
 - <code>docker stop [nome/id]</code>: parar o container
 - <code>docker start [nome/id]</code>: iniciar o container
-- <code>docker rim [repository/id]</code>: excluir uma imagem
+- <code>docker image rm [repository/id]</code>: excluir uma imagem
   - antes de excluir uma imagem, tem que excluir os containers que usam ela
 - <code>docker container rm [nome/id]</code>: excluir um container
   - antes de excluir um container, tem que dar um stop nele
