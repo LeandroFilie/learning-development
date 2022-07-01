@@ -20,6 +20,7 @@
  - [HTML](HTML/README.md)
  - [SASS](SCSS/README.md)
  - [JavaScript](JavaScript/README.md)
+ - [TypeScript](/TypeScript/README.md)
  - [Node.js](NodeJS/README.md)
  - [React.js](ReactJS/README.md)
 
