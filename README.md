@@ -18,6 +18,7 @@
 
 ## Tecnologias
  - [HTML](HTML/README.md)
+ - [CSS](CSS/README.md)
  - [SASS](SCSS/README.md)
  - [JavaScript](JavaScript/README.md)
  - [TypeScript](/TypeScript/README.md)
