@@ -58,11 +58,21 @@
 
 - <code>git branch</code>: mostra as branchs do repositório local e destaca em qual se esta atualmente
 
+- <code>git fetch</code>: traz todas as branchs que existem no repositório remoto para o repositório local
+  <code>git branch -p</code>: usado para caso a branch seja apagada no repositório remoto, com a flag -p, ela sera apagada do repositório local
+  
 - <code>git branch -m [novo_nome_branch]</code>: alterar o nome de uma branch estando nela
 
 - <code>git branch -m [nome_branch] [novo_nome_branch]</code>: alterar o nome de uma branch estando em qualquer outra
 
-- <code>git branch -d [novo_nome_branch]</code>: deletar branch
+- <code>git branch -d [novo_nome_branch]</code> ou <code>git push origin --delete [nome_branch]</code>: deletar branch
+
+### Pull request
+- Solicita o merge de uma brach a outra <br />
+
+#### Criar PR
+- Branch base: sempre a base que eu quero que receba as alterações
+- Branch compare: a branch que eu quero que mande as alterações
 
 #### stash
 - Se mover entre branchs sem carregar nada de outras branchs
