@@ -6,6 +6,14 @@
 
 React + ReactDOM + React Router -> SPA (Single Page Application)
 
+### Create React App
+- É uma ferramenta para criação de aplicações em react
+- Coloca uma camada de abstração nas configuração de babel, webpack e todo o setup necessário para a aplicação funcionar
+  - Além disso, já cria toda uma estrutura de pastas
+
+<code>yarn create react-app my-app</code>
+<code>npx create-react-app my-app</code>
+
 ## Componentes
 São partes de algo maior, que quando se juntam em uma ordem lógica, formam esse algo
 - São isolados
