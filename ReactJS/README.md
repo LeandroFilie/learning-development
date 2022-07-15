@@ -14,6 +14,13 @@ React + ReactDOM + React Router -> SPA (Single Page Application)
 <code>yarn create react-app my-app</code>
 <code>npx create-react-app my-app</code>
 
+## Virtual DOM
+- É uma representação virtual da DOM mantida em memória e sincronizada com a DOM real, utilizando o ReactDOM. Essa sincronização é chamada de reconciliação.
+
+- O React utiliza para saber o que mudou e o que não mudou entre as renderizações de um componente.
+
+Não se pode acessar os elementos igual acessa-se com o JavaScript, com o <code>document.getElementById</code> por exemplo, pois a Virtual DOM perde a sincronização com a DOM real.
+
 ## Componentes
 São partes de algo maior, que quando se juntam em uma ordem lógica, formam esse algo
 - São isolados
