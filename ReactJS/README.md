@@ -194,11 +194,18 @@ import { ThemeContext } from './ThemeContext',
 const ThemeContext = useContext(ThemeContext); //usando um contexto
 ```
 
-## [React Hooks](./react-hooks/README.md)
+## [React Hooks](./react-hooks/README.md) e Lifecycle
+- Hooks são funções prontas do react que se iniciam com a palavra "use".
 
-## Lifecycle
+### Lifecycle
 - Ordem em que as coisas acontecem no componente até ele chegar a tela do usuário
-- Para manipular o ciclo de vida de um componente, é usado o useEffect ou o useLayoutEffect
+- Para manipular o ciclo de vida de um componente, é usado os hooks useEffect ou o useLayoutEffect
+
+## [React Router Dom v5](./react-router-dom/README.md)
+- Responsável pelas rotas no react
+
+## [Styled Components](./styled-components/README.md)
+- Css in JS
 
 ## Estilização no React
 
@@ -274,10 +281,6 @@ function Componente(){
   ],
 },
 ```
-
-### [Styled Components](./styled-components/README.md)
-
-## [React Router v5](./react-router-dom/README.md)
 
 ## React Portals
 - Cria uma div irmã a div root para, por exemplo, o uso de modais

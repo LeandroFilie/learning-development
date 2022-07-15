@@ -1,5 +1,4 @@
 # React Router v5
-- Responsável pelas rotas no react
 
 ### Instalação
 <code>yarn add react-router-dom</code>
