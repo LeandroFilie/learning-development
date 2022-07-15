@@ -279,3 +279,19 @@ function Componente(){
 
 ## [React Router v5](./react-router-dom/README.md)
 
+## React Portals
+- Cria uma div irmã a div root para, por exemplo, o uso de modais
+
+```js
+import ReactDOM from 'react-dom';
+
+export default function Component(){
+  return ReactDOM.createPortal(
+    <tag>Componente em si</tag>,
+    getElementById('modal-root')
+  );
+}
+```
+
+- O primeiro argumento passado para a função createPortal é o componente que vai ser renderizado.
+- O segundo argumento é em elemento do HTML esse elemento será renderizado
