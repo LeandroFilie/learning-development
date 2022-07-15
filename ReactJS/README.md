@@ -305,3 +305,51 @@ export default function Component(){
 
 - O primeiro argumento passado para a função createPortal é o componente que vai ser renderizado.
 - O segundo argumento é em elemento do HTML esse elemento será renderizado
+
+## Formulários no React
+### Controlled Components
+- Campos do formulário onde a responsabilidade de controlar o valor desse componente são do React.
+- O método mais usado é a criação de um estado para cada campo de input.
+
+```js
+function Component(){
+  const [ field, setField ] = useState('');
+
+  return (
+    <input 
+      type="text"
+      value={field} //isso faz com que o elemento seja controlled component
+      onChange={(event) => setField(event.target.value)} 
+    >
+  )
+}
+```
+
+- One-way data binding: "única fonte de dados", no caso, a única fonte de dados do exemplo acima, é o estado. O estado é a Single Source of Truthy, ou seja, a única fonte de verdade.
+
+- Two-way data binding: DOM e state sincronizados. Mais usado em frameworks como Vue e Angular.
+
+- Usado para trabalhar com formulários simples, pois a cada atualização de estado, o component inteiro é remontado.
+
+### Uncontrolled Components
+- Campos do formulário onde a responsabilidade de controlar seu valor é da própria DOM, e não do React.
+
+- Com isso, o React precisa acessar de alguma forma o valor do input, para isso é utilizado o hook <code>useRef</code>
+
+```js
+function Component(){
+  const fieldInput = useRef(null);
+
+  return (
+    <input 
+      defaultValue="Valor Padrão"
+      type="text"
+      ref={fieldInput}
+    >
+  )
+}
+```
+
+- Não renderiza a cada letra que o usuário digita, assim como os Controlled Components
+
+- Mesmo sendo um Uncontrolled Component, os event listeners funcionam
