@@ -23,6 +23,7 @@ Retorna uma promise<br />
   - opaque
   - opaqueredirect
 - url: a url para onde está indo a requisição
+- [Mais sobre requisições](../../Conceitos/requests.md)
 
 ## Método GET
 É o método padrão do fetch

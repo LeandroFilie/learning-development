@@ -125,3 +125,30 @@ Mensagens tanto do request quando do response
 - Requisições que são feitas através do JavaScript só podem ser realizadas se a origem de onde a request está saindo for a mesma origem de onde a request está chegando.
 - Toda vez que essa regra for ferida, o navegador irá impedir a requisição.
   - Para flexibilizar essas regras, existe o CORS.
+
+## CORS (Cross-Origin Resource Sharing) | Compartilhamento de Recursos entre Origens Diferentes
+- Mecanismo para flexibilizar a SOP.
+- Toda vez que uma requisição fere a SOP, ela passa a ser uma requisição do tipo CORS.
+  - Uma requisição com origens diferentes.
+- O back-end deverá retornar no header uma propriedade <code>Access-Control-Allow-Origin</code> com a origem aceita.
+  - Caso seja uma API pública, é necessário utilizar um Wildcard (usando o "*"), para liberar o acesso a todos.
+
+### Simple requests
+Cumpre cinco requisitos: 
+  - Ter um dentre esses três métodos: GET, HEAD, POST;
+  - Não se pode definir nenhum header na requisição com exceção dos seguintes:
+    - Accept;
+    - Accept-Language;
+    - Content-Language;
+    - Content-Type;
+      - application/x-www-form-urlencoded
+      - multipart/form-data
+      - text/plain
+    - XMLHttpRequest
+    - Não utilizar ReadableStream
+
+### Preflighted requests
+- A partir do momento em que alguma regra da simple request é ferida, ela se torna Preflighted.
+  - O navegador dispara uma requisição antes da requisição solicitada
+    - Essa requisição sempre será do tipo OPTIONS para o mesmo destino
+      - Serve para verificar na api os métodos e headers permitidos
