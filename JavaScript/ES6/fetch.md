@@ -24,13 +24,6 @@ Retorna uma promise<br />
   - opaqueredirect
 - url: a url para onde está indo a requisição
 
-## Same Origin Policy (SOP) | Política de mesma Origem
-- Mecanismo de segurança que tem dentro dos navegadores.
-- Origem: protocolo://domínio:porta
-- Requisições que são feitas através do JavaScript só podem ser realizadas se a origem de onde a request está saindo for a mesma origem de onde a request está chegando.
-- Toda vez que essa regra for ferida, o navegador irá impedir a requisição.
-  - Para flexibilizar essas regras, existe o CORS.
-
 ## Método GET
 É o método padrão do fetch
 ```js

@@ -3,7 +3,7 @@
 ## Conceitos Básicos
 - [Terminal](Conceitos/Terminal.md)
 
-- [HTTP](Conceitos/http.md)
+- [Requisições](Conceitos/requests.md)
 
 - [Scrum](Conceitos/scrum.md)
 
