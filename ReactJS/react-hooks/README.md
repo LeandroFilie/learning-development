@@ -1,6 +1,12 @@
 # React Hooks
 - Uma regra é que tem que ser criado no corpo do componente, não pode ser dentro de uma função que está dentro do componente por exemplo. Tem que ser diretamente no componente
 
+### Plugin ESLint
+- Plugin para verificar se o uso dos hooks está sendo feito seguindo as recomendações do próprio React <br />
+<code>yarn add eslint-plugin-react-hooks -D</code>
+
+[Documentação](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+
 ## useState
 States em componentes funcionais. <br />
 ```js
@@ -44,26 +50,41 @@ useEffect(() => {
   - Obs: pode ter mais de uma coisa dentro do array de dependências
 - Toda variável usada dentro da função do useEffect tem que estar listada no array de dependências
 
-- Fazer chamadas assíncronas dentro do useEffect:
-  - usar o fetch, com .then
+### Chamadas assíncronas
+Como NÃO fazer: <br />
+```js
+useEffect(async () => {
+  
+}, []);
+```
+
+- Pode acontecer o <i>Race condition</i>
+  - Dois useEffects estarem executando ao mesmo tempo e mexendo nas mesmas coisas ao mesmo tempo.
+  - No momento em que o componente é desmontado, a função de cleanup não é executada, pois o useEffect começa a retornar uma promise.
+
+- usar o fetch, com .then
+```js
+useEffect(() => {
+  fetch()
+  .then()
+}, []);
+```
+
+- criar uma function async/await dentro e executar
+
+- criar uma IIFE: Immediately Invoked Function Expression
+  - Uma função criada e autoexecutada
   ```js
-  useEffect(() => {
-    fetch()
-    .then()
-  }, []);
-  ```
-
-  - criar uma function async/await dentro e executar
-
-  - criar uma IIFE: Immediately Invoked Function Expression
-    - Uma função criada e autoexecutada
-    ```js
-      (async () => {
-        //code here
-      })();
+    (async () => {
+      //code here
+    })();
     ```
 
-- Executar uma função no momento que o componente for sair de tela
+### Função de cleanup
+- Acontece em dois momentos
+  - Quando o componente está sendo desmontado, ou seja, sando de tela
+  - Quando há alteração na variável que está no array de dependências
+
 ```js
   useEffect(() => {
     //code here
