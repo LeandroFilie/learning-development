@@ -1,5 +1,15 @@
 # React Hooks
-- Uma regra é que tem que ser criado no corpo do componente, não pode ser dentro de uma função que está dentro do componente por exemplo. Tem que ser diretamente no componente
+- Os hooks tem que ser criados diretamente no corpo do corpo do componente
+
+### Hooks Condicionais
+- Não se pode existir uma criação condicional de um hook:
+```js
+let estado;
+
+if(condicao) estado = useEstate(1);
+```
+
+- Um componente tem suas propriedades e seus hooks, que, durante sua renderização, são passados como forma de parâmetro, pois o componente é uma função. A partir do momento em que há um hook sendo criado condicionalmente e há uma nova renderização do componente, é enviado menos parâmetros do que aquele componente esperava.
 
 ### Plugin ESLint
 - Plugin para verificar se o uso dos hooks está sendo feito seguindo as recomendações do próprio React <br />
@@ -22,17 +32,33 @@ const [ name, setName ] = useState('Leandro')
         return 'estado inicial';
       });
     ```
-
-Obs: se a atualização do valor do estado depender do valor anterior, usar a variável prevState, dentro da função set.
-
+    
+### Chamadas de States Sequenciais
 ```js
-const [counter, setCounter] = useState(0);
-function handlePlus(){
-  useState((prevState) => prevState + 1)
-}
+setEstado(estado + 1);
+setEstado(estado + 1);
+setEstado(estado + 1);
+setEstado(estado + 1);
 ```
 
-prevState representa o valor no momento em que o react está fazendo a atualização do estado
+- Uma vez que o componente é renderizado e o valor do estado é passado como um parâmetro, não se pode alterar o valor de um parâmetro passado para uma função.
+- Se a renderização do componente se da por App(props, 1), 1 sendo o valor do estado, por baixo dos panos o exemplos acima estaria da seguinte forma:
+```js
+setEstado(1 + 1);
+setEstado(1 + 1);
+setEstado(1 + 1);
+setEstado(1 + 1);
+``` 
+
+- Para casos como esse, o react disponibiliza uma função como callback, que cria uma referência para o estado.
+```js
+setEstado(prevState => prevState + 1);
+setEstado(prevState => prevState + 1);
+setEstado(prevState => prevState + 1);
+setEstado(prevState => prevState + 1);
+```
+
+- prevState representa o valor no momento em que o react está fazendo a atualização do estado
 
 ## useEffect
 Manipula o lifecycle do react
