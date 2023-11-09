@@ -1,20 +1,31 @@
-# Estudos Desenvolvimento WEB
+# Estudos Desenvolvimento
 
 ## Conceitos Básicos
 - [Terminal](Conceitos/Terminal.md)
-
-- [Requisições](Conceitos/requests.md)
 
 - [Scrum](Conceitos/scrum.md)
 
 - [Git](Conceitos/git.md)
    - [Treinar](https://learngitbranching.js.org/?locale=pt_BR)
 
-- [Estrutura de Dados](Conceitos/EstruturaDados.md)
-
 - Paradigmas de Programação
    - [Programação Orientada a Objetos](Conceitos/poo.md)
-   - [Programação Funcional](Conceitos/pf.md)
+
+- Estrutura de Dados
+   - [Lista](Conceitos/estruturaDados/lista.md)
+   - [Fila](Conceitos/estruturaDados/fila.md)
+   - [Pilha](Conceitos/estruturaDados/pilha.md)
+   - [Árvore](Conceitos/estruturaDados/arvore.md)
+   - Ordenação de Vetores
+      - Selection Sort
+      - Insertion Sort
+      - Quick Sort
+      - Merge Sort
+      - Bubble Sort
+   - [Repositório com Códigos](https://github.com/LeandroFilie/data-structures)
+
+## Conceitos Básicos Desenvolvimento WEB
+- [Requisições](Conceitos/requests.md)
 
 ## Tecnologias
  - [HTML](HTML/README.md)
@@ -52,16 +63,7 @@
 
 - [Exemplos de Readme](https://github.com/iuricode/readme-template)
 
-### Roadmap
-[Roadmap Front-End](https://14habits.com/static/img/roadmap-frontend.png)
-
 ## Sites uteis
-### APIs para usar nos projetos
-- [Marvel](https://developer.marvel.com)
-- [IMDb](https://developer.imdb.com)
-- [Nasa](https://api.nasa.gov)
-- [Gerar QR Code](https://goqr.me/api/)
-- [OpenWeather](https://openweathermap.org/api)
 
 ### CSS
 - [bounce.js](bouncejs.com): biblioteca de animações em JS
@@ -80,7 +82,6 @@
 ### JS
 - [Refactoring.Guru](https://refactoring.guru/pt-br): refatoração, padrões de projeto, princípios SOLID, e outros tópicos de programação inteligente
 - [Regexr](regexr.com): gerador de regex
-- [iHateRegex](ihateregex.io): gerador de regex
 - Biblioteca de Animações
   - [AniJS](anijs.github.io)
   - [Scroll Reveal](scrollrevealjs.org)
@@ -89,10 +90,9 @@
   - [MOJS](mojs.github.io)
 
 ### Ferramentas
+- [TinyPNG](tinypng.com): compressor de imagens
 - [Lorem Picsum](picsum.photos): gerador de imagens aleatórias
 - [Epoch Converter](www.epochconverter.com): conversor de data em timestanp para tempo normal e vice-versa
-- [TinyPNG](tinypng.com): compressor de imagens
-- [Shape Divider](https://www.shapedivider.app/): gerador de formas para backgorund
 
 ### Desafios
 - [DevChallenges](https://devchallenges.io/)

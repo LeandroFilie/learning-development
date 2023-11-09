@@ -2,10 +2,12 @@
 Javascript é como nós chamamos a linguagem (mas isso é o trademark da Oracle), o nome oficial da linguagem é ECMAScript (ES) é a abreviação.
 
 ## Conceitos
-- [Programação Orientada a Objetos](../Conceitos/poo.md)
+- [Programação Orientada a Objetos](poo.md)
+- [Programação Funcional](pf.md)
 - [JS6](ES6/README.md)
 - [Prototype](prototype.md)
 - [DOM - Document Object Model](dom.md)
+- [Estrutura de Dados](estruturaDados.md)
 
 ### Hoisting
 Içamento de funções e variáveis para o topo do código, isso declara as variáveis e funções em memória e permite que você use uma função/variável antes mesmo de declara-la.
