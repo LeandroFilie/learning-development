@@ -11,6 +11,8 @@
 - Paradigmas de Programação
    - [Programação Orientada a Objetos](Conceitos/poo.md)
 
+- [Arquitetura de Software](Conceitos/arquitetura/padroes.md)
+
 - Estrutura de Dados
    - [Lista](Conceitos/estruturaDados/lista.md)
    - [Fila](Conceitos/estruturaDados/fila.md)
