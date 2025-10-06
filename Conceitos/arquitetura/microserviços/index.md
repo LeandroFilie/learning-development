@@ -74,3 +74,22 @@
 - Visão de alto nível dos microsserviços
     - Ex: ver o serviço que está recebendo mais requisições e melhorar o servidor desse serviço especícifo
 - Importante ter dashboards com uma visão geral do sistemas mas também é importante ter um por serviço, para uma visão mais específica
+
+## Contratos de microsserviços
+Microsserviços tem que ser independentes
+- Optar por fazer modificações aditivas
+    - Adicionar novos endpoints e campos (não obrigatórios)
+- Versionamento de APIs
+    - Quando não puder ser feita uma modificação aditiva, manter uma v1 e v2
+
+## Entregas
+- Utilização de pipeline
+    - Processo de build
+    - Testes automatizados
+- Exemplos de processos que podem ser aplicados:
+    1. Verificação de erros de sintaxe
+    2. Verificação de estilo de código
+    3. Análise de código estática (garantir que não tem bugs sem rodar a aplicação)
+    4. Execução de testes 
+
+- Ferramentas: Jekins, Tavis CI, GitHub Actions
